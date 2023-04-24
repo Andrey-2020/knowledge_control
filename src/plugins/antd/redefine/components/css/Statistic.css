@@ -1,0 +1,9 @@
+.ant-statistic {
+  color: var(--text-dark-4);
+}
+.ant-statistic-title {
+  color: var(--text-dark-1);
+}
+.ant-statistic-content {
+  color: var(--text-dark-4);
+}

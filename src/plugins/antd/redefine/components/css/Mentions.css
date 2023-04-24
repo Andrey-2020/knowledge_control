@@ -1,0 +1,78 @@
+.ant-mentions {
+  color: var(--text-dark-4);
+  background-color: var(--text-light-5);
+  border: 1px solid var(--text-light-2);
+}
+.ant-mentions:-ms-input-placeholder {
+  color: var(--text-light-2);
+}
+.ant-mentions::placeholder {
+  color: var(--text-light-2);
+}
+.ant-mentions:hover {
+  border-color: var(--primary-dark-1);
+}
+.ant-mentions:focus,
+.ant-mentions-focused {
+  border-color: var(--primary-dark-1);
+  box-shadow: 0 0 0 2px var(--primary-dark-transparent);
+}
+.ant-mentions-disabled {
+  color: var(--text-light-2);
+  background-color: var(--text-light-4);
+}
+.ant-mentions-disabled:hover {
+  border-color: var(--text-light-2);
+}
+.ant-mentions[disabled] {
+  color: var(--text-light-2);
+  background-color: var(--text-light-4);
+}
+.ant-mentions[disabled]:hover {
+  border-color: var(--text-light-2);
+}
+.ant-mentions-disabled > textarea {
+  color: var(--text-light-2);
+  background-color: var(--text-light-4);
+}
+.ant-mentions-disabled > textarea:hover {
+  border-color: var(--text-light-2);
+}
+.ant-mentions-focused {
+  border-color: var(--primary-dark-1);
+  box-shadow: 0 0 0 2px var(--primary-dark-transparent);
+}
+.ant-mentions > textarea:-ms-input-placeholder {
+  color: var(--text-light-2);
+}
+.ant-mentions > textarea::placeholder {
+  color: var(--text-light-2);
+}
+.ant-mentions-dropdown {
+  color: var(--text-dark-4);
+  background-color: var(--text-light-5);
+  box-shadow:
+    0 3px 6px -4px var(--shadow-light-1),
+    0 6px 16px 0 var(--shadow-light-2),
+    0 9px 28px 8px var(--shadow-light-3);
+}
+.ant-mentions-dropdown-menu-item {
+  color: var(--text-dark-4);
+}
+.ant-mentions-dropdown-menu-item:hover {
+  background-color: var(--text-light-4);
+}
+.ant-mentions-dropdown-menu-item-disabled {
+  color: var(--text-light-2);
+}
+.ant-mentions-dropdown-menu-item-disabled:hover {
+  color: var(--text-light-2);
+  background-color: var(--text-light-5);
+}
+.ant-mentions-dropdown-menu-item-selected {
+  color: var(--text-dark-4);
+  background-color: var(--text-light-5);
+}
+.ant-mentions-dropdown-menu-item-active {
+  background-color: var(--text-light-4);
+}

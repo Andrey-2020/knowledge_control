@@ -1,0 +1,12 @@
+.card {
+    cursor: pointer;
+    padding: 12px;
+    background-color: var(--text-light-5);
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.card svg {
+    max-height: 48px;
+    max-width: 48px;
+}

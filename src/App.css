@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+#root {
+  min-height: 100%;
+}
+
+/* Переопределения */
+.ant-select-auto-complete {
+  min-width: 100px;
+}
+.ant-message > div > .ant-message-notice > .ant-message-notice-content {
+  max-width: 600px;
+}
+.ant-message .ant-message-notice .ant-message-notice-content .anticon {
+  top: -4px;
+}
+.anticon {
+  vertical-align: 0.1em !important;
+}
+
+/* Свои классы */
+.icon-size--middle {
+  font-size: 20px;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+.text-line-through {
+  text-decoration: line-through !important;
+}
+.max-width-100-inners * {
+  max-width: 100%;
+}
+
+.text-overflow-ellipsis {
+  text-overflow: ellipsis !important;
+}
+
+.border-bottom-text {
+  border-bottom: 1px solid var(--text-light-1) !important;
+}

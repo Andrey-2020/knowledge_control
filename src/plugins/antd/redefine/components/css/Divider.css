@@ -1,0 +1,17 @@
+.ant-divider {
+  color: var(--text-dark-4);
+  border-top: 1px solid var(--shadow-light-3);
+}
+.ant-divider-vertical {
+  border-left: 1px solid var(--shadow-light-3);
+}
+.ant-divider-horizontal.ant-divider-with-text {
+  color: var(--text-dark-4);
+  border-top-color: var(--shadow-light-3);
+}
+.ant-divider-dashed {
+  border-color: var(--shadow-light-3);
+}
+.ant-divider-plain.ant-divider-with-text {
+  color: var(--text-dark-4);
+}

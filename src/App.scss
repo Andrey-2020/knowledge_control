@@ -1,0 +1,23 @@
+.linear-gradient-button {
+  background: linear-gradient(237deg,
+    var(--primary-light-2) 8%,
+    var(--primary-dark-1) 95%
+  ) !important;
+  color: var(--text-light-5) !important;
+  border: none !important;
+  border-radius: 8px;
+
+  &:hover {
+    background: linear-gradient(237deg,
+      var(--primary-base) 8%,
+      var(--primary-dark-2) 95%
+    ) !important;
+  }
+
+  &:active {
+    background: linear-gradient(237deg,
+      var(--text-dark-5) 8%,
+      var(--primary-dark-2) 95%
+    ) !important;
+  }
+}

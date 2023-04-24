@@ -1,0 +1,21 @@
+.ant-page-header {
+  color: var(--text-dark-4);
+  background-color: var(--text-light-5);
+}
+.ant-page-header-back-button {
+  color: var(--text-dark-5);
+}
+.ant-page-header-back-button:focus,
+.ant-page-header-back-button:hover {
+  color: var(--primary-dark-1);
+}
+.ant-page-header-back-button:active {
+  color: var(--primary-dark-2);
+}
+.ant-page-header-heading-title {
+  color: var(--text-dark-4);
+}
+.ant-page-header-heading-sub-title {
+  color: var(--text-dark-1);
+}
+

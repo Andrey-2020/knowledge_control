@@ -1,0 +1,62 @@
+.ant-popover {
+  color: var(--text-dark-4);
+}
+.ant-popover::after {
+  background: var(--text-dark-transparent-2);
+}
+.ant-popover-inner {
+  background-color: var(--text-light-5);
+  box-shadow:
+    0 3px 6px -4px var(--shadow-light-1),
+    0 6px 16px 0 var(--shadow-light-2),
+    0 9px 28px 8px var(--shadow-light-3);
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ant-popover-inner {
+    box-shadow:
+      0 3px 6px -4px var(--shadow-light-1),
+      0 6px 16px 0 var(--shadow-light-2),
+      0 9px 28px 8px var(--shadow-light-3);
+  }
+}
+.ant-popover-title {
+  color: var(--text-dark-4);
+  border-bottom: 1px solid var(--text-light-4);
+}
+.ant-popover-inner-content {
+  color: var(--text-dark-4);
+}
+.ant-popover-message {
+  color: var(--text-dark-4);
+}
+.ant-popover-message > .anticon {
+  color: var(--warning-base);
+}
+.ant-popover-placement-top > .ant-popover-content > .ant-popover-arrow,
+.ant-popover-placement-topLeft > .ant-popover-content > .ant-popover-arrow,
+.ant-popover-placement-topRight > .ant-popover-content > .ant-popover-arrow {
+  border-right-color: var(--text-light-5);
+  border-bottom-color: var(--text-light-5);
+  box-shadow: 3px 3px 7px var(--shadow-light-3);
+}
+.ant-popover-placement-right > .ant-popover-content > .ant-popover-arrow,
+.ant-popover-placement-rightTop > .ant-popover-content > .ant-popover-arrow,
+.ant-popover-placement-rightBottom > .ant-popover-content > .ant-popover-arrow {
+  border-bottom-color: var(--text-light-5);
+  border-left-color: var(--text-light-5);
+  box-shadow: -3px 3px 7px var(--shadow-light-3);
+}
+.ant-popover-placement-bottom > .ant-popover-content > .ant-popover-arrow,
+.ant-popover-placement-bottomLeft > .ant-popover-content > .ant-popover-arrow,
+.ant-popover-placement-bottomRight > .ant-popover-content > .ant-popover-arrow {
+  border-top-color: var(--text-light-5);
+  border-left-color: var(--text-light-5);
+  box-shadow: -2px -2px 5px var(--shadow-light-3);
+}
+.ant-popover-placement-left > .ant-popover-content > .ant-popover-arrow,
+.ant-popover-placement-leftTop > .ant-popover-content > .ant-popover-arrow,
+.ant-popover-placement-leftBottom > .ant-popover-content > .ant-popover-arrow {
+  border-top-color: var(--text-light-5);
+  border-right-color: var(--text-light-5);
+  box-shadow: 3px -3px 7px var(--shadow-light-3);
+}

@@ -1,0 +1,702 @@
+{
+    "globalStore.constants": {
+        "ROLES": {
+            "USER": "Student",
+            "TEACHER": "Teacher",
+            "ADMIN": "Admin"
+        },
+        "CONTROL_TYPES": {
+            "EXAM": "Exam",
+            "CREDIT": "Credit",
+            "DIFFERENTIAL_CREDIT": "Credit with grade"
+        },
+        "QUESTIONS_TYPES": {
+            "SELECT": "Multiple select",
+            "WRITE": "Write something",
+            "SEQUENCE": "Correct sequence",
+            "MATCH": "Coincidence"
+        },
+        "TASK_TYPES": {
+            "LAB": "Laboratory work",
+            "PRACTICE": "Practical work",
+            "COURSEWORK": "Course work",
+            "ESSAY": "Essay"
+        },
+        "MARK_TYPES": {
+            "FIVE": "Excellent",
+            "FOUR": "Good",
+            "THREE": "Satisfactorily",
+            "UNSATISFACTORILY": "Unsatisfactory",
+            "NOT_PASSED": "Not passed",
+            "PASSED": "Passed",
+            "DISAPPOINTINGLY": "Disappointingly"
+        },
+        "LITERATURE_TYPES": {
+            "BOOK": "Book",
+            "WORKBOOK": "Manual"
+        },
+        "USER_CONTACT_TYPES": {
+            "EMAIL": "Email",
+            "TELEGRAM": "Telegram",
+            "VKONTAKTE": "VKontakte"
+        }
+    },
+    "pages.routes": {
+        "AuthorizationStateRedirect--error": "Invalid address, you are redirected",
+        "routes": {
+            "Profile": "Profile",
+            "Main": "Main",
+            "Schedule": "Schedule",
+            "Subjects": "Subjects",
+            "Administration": "Administration"
+        }
+    },
+    "pages.Login.index": {
+        "send--error": "Unsuccessful login attempt",
+        "template": {
+            "title": "Login",
+            "text--Language": "Language",
+            "text--Theme": "Theme",
+            "button-on-main--text": "To the main",
+            "text--title": "Welcome to Learn.Ulstu",
+            "text--description": "Web application for automating training at Ulstu",
+            "text--Authorization": "Authorization",
+            "Form": {
+                "login--placeholder": "Enter login",
+                "password--placeholder": "Enter password",
+                "submit--text": "Sign in"
+            }
+        }
+    },
+    "pages.Main.index": {
+        "useOnce": {
+            "get-performance": {
+                "error": "Error getting statistics"
+            }
+        },
+        "template": {
+            "title": "The most important",
+            "img-alt--logo": "Logo",
+            "img-logo--overdue-works": "Picture of overdue works",
+            "overdue-works": "Overdue work",
+            "overdue-works_plural": "Overdue works",
+            "img-logo--completed-tests": "A picture of the tests completed",
+            "completed-tests": "Test completed",
+            "completed-tests_plural": "Tests completed",
+            "img-logo--completed-works": "Picture of completed works",
+            "completed-works": "Completed work",
+            "completed-works_plural": "Completed works",
+            "answers-for-completed-works": "Answers for completed works",
+            "attendance": "Attendance"
+        }
+    },
+    "pages._WrapperMenu.index": {
+        "confirmLogout": {
+            "title": "Do you really want to leave?",
+            "okText": "Ok",
+            "cancelText": "Cancel"
+        },
+        "fullName--incognita": "Incognita",
+        "template": {
+            "AutoComplete--placeholder": "Search",
+            "Avatar-alt": "Avatar",
+            "Tooltip--title": "Logout",
+            "login-button--text": "Login"
+        }
+    },
+    "pages._WrapperMenu.SmallUserSettings": {
+        "template": {
+            "Popover--title": "Small settings",
+            "text--Theme": "Theme",
+            "text--Language": "Language",
+            "button-to-full-settings--text": "To large settings"
+        }
+    },
+    "pages.Administration.Departments.AddDepartmentModalButton": {
+        "add--success": "Department has been successfully added",
+        "add--error": "Failed to add department",
+        "template": {
+            "show-button--text": "Add",
+            "Modal--title": "Adding a new department",
+            "Form": {
+                "shortName--label": "Short name",
+                "shortName--placeholder": "Short name",
+                "fullName--label": "Full name",
+                "fullName--placeholder": "Full name",
+                "facultyId--label": "Faculty",
+                "facultyId--placeholder": "Faculty",
+                "submit--text": "Add"
+            }
+        }
+    },
+    "pages.Administration.Departments.ChangeDepartmentModalButton": {
+        "change--success": "Department has been successfully changed",
+        "change--error": "Failed to change department",
+        "template": {
+            "show-button--text": "Change",
+            "Modal--title": "Faculty change",
+            "Form": {
+                "shortName--label": "Short name",
+                "shortName--placeholder": "Short name",
+                "fullName--label": "Full name",
+                "fullName--placeholder": "Full name",
+                "facultyId--label": "Faculty",
+                "facultyId--placeholder": "Faculty",
+                "submit--text": "Change"
+            }
+        }
+    },
+    "pages.Administration.Departments.index": {
+        "remove": {
+            "title": "Deleting",
+            "content": "Are you sure you want to delete the departments?",
+            "okText": "Ok",
+            "cancelText": "Cancel",
+            "onOk--success": "Departments have been successfully removed",
+            "onOk--error": "Failed to delete departments"
+        },
+        "columns": {
+            "shortName--title": "Short name",
+            "fullName--title": "Full name",
+            "facultyId--title": "Faculty",
+            "facultyId--render--empty": "No faculty",
+            "studyGroupIds--title": "Study groups",
+            "studyGroupIds--render--empty": "Nope",
+            "subjectIds--title": "Subjects",
+            "subjectIds--render--empty": "Nope",
+            "actions--title": "Actions",
+            "actions--render--delete--text": "Delete"
+        },
+        "template": {
+            "fast-search--placeholder": "Fast search",
+            "button-delete-selected--text": "Delete selected"
+        }
+    },
+    "pages.Administration.Faculties.AddFacultyModalButton": {
+        "add--success": "Faculty added successfully",
+        "add--error": "Failed to add faculty",
+        "template": {
+            "show-button--text": "Add",
+            "Modal--title": "Adding a new faculty",
+            "Form": {
+                "shortName--label": "Short name",
+                "shortName--placeholder": "Short name",
+                "fullName--label": "Full name",
+                "fullName--placeholder": "Full name",
+                "submit--text": "Add"
+            }
+        }
+    },
+    "pages.Administration.Faculties.ChangeFacultyModalButton": {
+        "change--success": "Faculty успешно изменён",
+        "change--error": "Failed to change faculty",
+        "template": {
+            "show-button--text": "Change",
+            "Modal--title": "Faculty change",
+            "Form": {
+                "shortName--label": "Short name",
+                "shortName--placeholder": "Short name",
+                "fullName--label": "Full name",
+                "fullName--placeholder": "Full name",
+                "submit--text": "Change"
+            }
+        }
+    },
+    "pages.Administration.Faculties.index": {
+        "remove": {
+            "title": "Deleting",
+            "content": "Are you sure you want to delete faculties?",
+            "okText": "Ok",
+            "cancelText": "Cancel",
+            "onOk--success": "Faculties successfully deleted",
+            "onOk--error": "Failed to delete faculties"
+        },
+        "columns": {
+            "shortName--title": "Short name",
+            "fullName--title": "Full name",
+            "departmentIds--title": "Faculty",
+            "departmentIds--render--empty": "Nope",
+            "actions--title": "Actions",
+            "actions--render--delete--text": "Delete"
+        },
+        "template": {
+            "fast-search--placeholder": "Fast search",
+            "button-delete-selected--text": "Delete selected"
+        }
+    },
+    "pages.Administration.StudyGroups.AddStudyGroupModalButton": {
+        "add--success": "Study group added successfully",
+        "add--error": "Failed to add study group",
+        "template": {
+            "show-button--text": "Add",
+            "Modal--title": "Adding a new study group",
+            "Form": {
+                "shortName--label": "Short name",
+                "shortName--placeholder": "Short name",
+                "fullName--label": "Full name",
+                "fullName--placeholder": "Full name",
+                "code--label": "Code",
+                "code--placeholder": "Code",
+                "groupNumber--label": "Group number",
+                "groupNumber--placeholder": "Group number",
+                "numberOfSemester--label": "Semester number",
+                "yearOfStudyStart--label": "Year of study start",
+                "yearOfStudyStart--placeholder": "Year of study start",
+                "departmentId--label": "Department",
+                "departmentId--placeholder": "Department",
+                "submit--text": "Add"
+            }
+        }
+    },
+    "pages.Administration.StudyGroups.ChangeStudyGroupModalButton": {
+        "change--success": "Study group successfully changed",
+        "change--error": "Failed to change study group",
+        "template": {
+            "show-button--text": "Change",
+            "Modal--title": "Changing a study group",
+            "Form": {
+                "shortName--label": "Short name",
+                "shortName--placeholder": "Short name",
+                "fullName--label": "Full name",
+                "fullName--placeholder": "Full name",
+                "code--label": "Code",
+                "code--placeholder": "Code",
+                "groupNumber--label": "Group number",
+                "groupNumber--placeholder": "Group number",
+                "numberOfSemester--label": "Semester number",
+                "yearOfStudyStart--label": "Year of study start",
+                "yearOfStudyStart--placeholder": "Year of study start",
+                "departmentId--label": "Department",
+                "departmentId--placeholder": "Department",
+                "submit--text": "Change"
+            }
+        }
+    },
+    "pages.Administration.StudyGroups.index": {
+        "remove": {
+            "title": "Deleting",
+            "content": "Are you sure you want to delete study groups?",
+            "okText": "Ok",
+            "cancelText": "Cancel",
+            "onOk--success": "Study groups successfully deleted",
+            "onOk--error": "Failed to delete study groups"
+        },
+        "updateSchedule--success": "Schedule update started",
+        "updateSchedule--error": "Failed to start schedule update",
+        "columns": {
+            "shortName--title": "Short name",
+            "fullName--title": "Full name",
+            "code--title": "Code",
+            "groupNumber--title": "Group number",
+            "numberOfSemester--title": "Semester number",
+            "yearOfStudyStart--title": "Year of study start",
+            "yearOfStudyStart--render--undefined": "Unknown year",
+            "yearOfStudyStart--render--text": "year",
+            "departmentId--title": "Department",
+            "departmentId--render--empty": "No department",
+            "departmentId--render--undefined": "Some kind of wrong department with id =",
+            "studentIds--title": "Students",
+            "subjectSemesters--title": "Semesters",
+            "subjectSemesters--render--empty": "Nope",
+            "actions--title": "Actions",
+            "actions--render--delete--text": "Delete"
+        },
+        "template": {
+            "fast-search--placeholder": "Fast search",
+            "button-update-schedule--text": "Update schedule",
+            "button-delete-selected--text": "Delete selected"
+        }
+    },
+    "pages.Administration.Subjects.AddSubjectModalButton": {
+        "add--success": "Subject added successfully",
+        "add--error": "Failed to add subject",
+        "template": {
+            "show-button--text": "Add",
+            "Modal--title": "Adding a new subject",
+            "Form": {
+                "name--label": "Name",
+                "name--placeholder": "Name",
+                "decryption--label": "Description",
+                "decryption--placeholder": "Description",
+                "departmentId--label": "Department",
+                "departmentId--placeholder": "Department",
+                "submit--text": "Add"
+            }
+        }
+    },
+    "pages.Administration.Subjects.ChangeSubjectModalButton": {
+        "change--success": "Subject changed successfully",
+        "change--error": "Failed to change subject",
+        "template": {
+            "show-button--text": "Change",
+            "Modal--title": "Subject change",
+            "Form": {
+                "name--label": "Name",
+                "name--placeholder": "Name",
+                "decryption--label": "Description",
+                "decryption--placeholder": "Description",
+                "departmentId--label": "Department",
+                "departmentId--placeholder": "Department",
+                "submit--text": "Change"
+            }
+        }
+    },
+    "pages.Administration.Subjects.index": {
+        "remove": {
+            "title": "Deleting",
+            "content": "Are you sure you want to delete subjects?",
+            "okText": "Ok",
+            "cancelText": "Cancel",
+            "onOk--success": "Subjects deleted successfully",
+            "onOk--error": "Failed to delete subjects"
+        },
+        "columns": {
+            "name--title": "Name",
+            "decryption--title": "Description",
+            "departmentId--title": "Department",
+            "departmentId--render--empty": "Nope",
+            "subjectSemesterIds--title": "Subject semesters",
+            "subjectSemesterIds--render--empty": "Nope",
+            "subjectSemesterIds--render--semester": "semester",
+            "questionIds--title": "Test questions",
+            "actions--title": "Actions",
+            "actions--render--delete--text": "Delete"
+        },
+        "template": {
+            "fast-search--placeholder": "Fast search",
+            "button-delete-selected--text": "Delete selected"
+        }
+    },
+    "pages.Administration.SubjectSemesters.AddSubjectSemesterModalButton": {
+        "add--success": "Semester added successfully",
+        "add--error": "Failed to add semester",
+        "template": {
+            "show-button--text": "Add",
+            "Modal--title": "Adding a new semester",
+            "Form": {
+                "controlType--label": "Credit type",
+                "hasCourseWork--label": "There is a term paper",
+                "hasCourseProject--label": "There is a course project",
+                "subjectId--label": "Subject",
+                "subjectId--placeholder": "Subject",
+                "submit--text": "Add"
+            }
+        }
+    },
+    "pages.Administration.SubjectSemesters.ChangeSubjectSemesterModalButton": {
+        "change--success": "Semester changed successfully",
+        "change--error": "Failed to change semester",
+        "template": {
+            "show-button--text": "Change",
+            "Modal--title": "Semester change",
+            "Form": {
+                "controlType--label": "Credit type",
+                "hasCourseWork--label": "There is a term paper",
+                "hasCourseProject--label": "There is a course project",
+                "subjectId--label": "Subject",
+                "subjectId--placeholder": "Subject",
+                "submit--text": "Change"
+            }
+        }
+    },
+    "pages.Administration.SubjectSemesters.index": {
+        "remove": {
+            "title": "Deleting",
+            "content": "Are you sure you want to delete semesters?",
+            "okText": "Ok",
+            "cancelText": "Cancel",
+            "onOk--success": "Semesters successfully deleted",
+            "onOk--error": "Failed to delete semesters"
+        },
+        "columns": {
+            "studyGroupId--title": "Student group",
+            "studyGroupId--render--empty": "No student group",
+            "controlType--title": "Credit type",
+            "controlType--render--undefined": "Something strange",
+            "subjectId--title": "Subject",
+            "subjectId--render--empty": "No subject",
+            "hasCourseWork--title": "There is a term paper",
+            "hasCourseWork--render--yes": "Yes",
+            "hasCourseWork--render--no": "No",
+            "hasCourseProject--title": "There is a course project",
+            "hasCourseProject--render--yes": "Yes",
+            "hasCourseProject--render--no": "No",
+            "actions--title": "Actions",
+            "actions--render--delete--text": "Delete"
+        },
+        "template": {
+            "fast-search--placeholder": "Fast search",
+            "button-delete-selected--text": "Delete selected"
+        }
+    },
+    "pages.Administration.Users.AddUserModalButton": {
+        "add--success": "User registered successfully",
+        "add--error": "Failed to register user",
+        "template": {
+            "show-button--text": "Add",
+            "Modal--title": "New User Registration",
+            "Form": {
+                "login--label": "Login",
+                "login--placeholder": "Login",
+                "password--label": "Password",
+                "password--placeholder": "Password",
+                "repeatedPassword--label": "Repeat password",
+                "repeatedPassword--placeholder": "Repeat password",
+                "email--label": "Email",
+                "email--placeholder": "Email",
+                "firstName--label": "First name",
+                "firstName--placeholder": "First name",
+                "lastName--label": "Last name",
+                "lastName--placeholder": "Last name",
+                "patronymic--label": "Patronymic",
+                "patronymic--placeholder": "Patronymic",
+                "phone--label": "phone",
+                "phone--placeholder": "phone",
+                "role--label": "Role",
+                "role--placeholder": "Role",
+                "studyGroupId--label": "Study group",
+                "studyGroupId--placeholder": "Study group",
+                "departmentId--label": "Department",
+                "departmentId--placeholder": "Department",
+                "submit--text": "Register"
+            }
+        }
+    },
+    "pages.Administration.Users.ChangeUserModalButton": {
+        "change--success": "User changed successfully",
+        "change--error": "Failed to change user",
+        "template": {
+            "show-button--text": "Change",
+            "Modal--title": "User change",
+            "Form": {
+                "login--label": "Login",
+                "login--placeholder": "Login",
+                "email--label": "Email",
+                "email--placeholder": "Email",
+                "firstName--label": "First name",
+                "firstName--placeholder": "First name",
+                "lastName--label": "Last name",
+                "lastName--placeholder": "Last name",
+                "patronymic--label": "Patronymic",
+                "patronymic--placeholder": "Patronymic",
+                "phone--label": "phone",
+                "phone--placeholder": "phone",
+                "role--label": "Role",
+                "role--placeholder": "Role",
+                "studyGroupId--label": "Study group",
+                "studyGroupId--placeholder": "Study group",
+                "departmentId--label": "Department",
+                "departmentId--placeholder": "Department",
+                "submit--text": "Change"
+            }
+        }
+    },
+    "pages.Administration.Users.index": {
+        "remove": {
+            "title": "Deleting",
+            "content": "Are you sure you want to delete users?",
+            "okText": "Ok",
+            "cancelText": "Cancel",
+            "onOk--success": "Users deleted successfully",
+            "onOk--error": "Failed to delete users"
+        },
+        "columns": {
+            "login--title": "Login",
+            "email--title": "Email",
+            "firstName--title": "First name",
+            "lastName--title": "Last name",
+            "patronymic--title": "Patronymic",
+            "phone--title": "phone",
+            "role--title": "Role",
+            "role--render--undefined": "Какая-то неизвестная роль",
+            "affiliation--title": "Affiliation",
+            "affiliation--render--text--studyGroup": "Study group",
+            "affiliation--render--text--department": "Department",
+            "affiliation--render--empty": "Nope",
+            "actions--title": "Actions",
+            "actions--render--delete--text": "Delete"
+        },
+        "template": {
+            "fast-search--placeholder": "Fast search",
+            "button-delete-selected--text": "Delete selected"
+        }
+    },
+    "pages.Administration.index": {
+        "title": "Administration",
+        "tabNames": {
+            "Users": "Users",
+            "StudyGroups": "Study groups",
+            "SubjectSemesters": "Semesters",
+            "Subjects": "Subjects",
+            "Departments": "Departments",
+            "Faculties": "Faculties"
+        }
+    },
+    "pages.Profile.ChangePasswordModal": {
+        "changePassword--success":  "Password changed successfully",
+        "changePassword--error": "Failed to change password",
+        "template": {
+            "show-button--text": "Change password",
+            "Modal--title": "Change password",
+            "Form": {
+                "newPassword--label": "New password",
+                "newPassword--placeholder": "New password",
+                "repeatedNewPassword--label": "Repeat new password",
+                "repeatedNewPassword--placeholder": "Repeat new password",
+                "submit--text": "Change"
+            }
+        }
+    },
+    "pages.Profile.GroupList": {
+        "GroupList": {
+            "useOnce--get-studyGroup-teaching--error": "Failed to get the list of groups",
+            "template": {
+                "no-studyGroups": "No student groups",
+                "Collapse--header": "List of groups"
+            }
+        },
+        "GroupTable": {
+            "useOnce--get-user-by-ids--error": "Failed to get the list of users",
+            "columns": {
+                "firstName--title": "First name",
+                "lastName--title": "Last name",
+                "patronymic--title": "Patronymic",
+                "login--title": "Login",
+                "email--title": "Email",
+                "phone--title": "Phone"
+            }
+        }
+    },
+    "pages.Profile.Profile": {
+        "change--success": "Data changed successfully",
+        "change--error": "Error while changing user data",
+        "uploadAvatar--error-type": "You can only upload JPG/PNG file",
+        "uploadAvatar--error-size": "Image must smaller than 2 MB",
+        "uploadAvatar--success": "Avatar updated",
+        "uploadAvatar--error--response": "Failed to update avatar",
+        "avatarImageComponent--upload-text": "Upload",
+        "template": {
+            "title": "Lovely profile",
+            "text--personal-data": "Personal data",
+            "text--lastName": "Last name",
+            "text--firstName": "First name",
+            "text--patronymic": "Patronymic",
+            "text--role": "Role",
+            "text--department": "Department",
+            "text--studyGroup": "Study group",
+            "text--authorization-data": "Authorization data",
+            "Form": {
+                "login--label": "Login",
+                "login--placeholder": "Login",
+                "email--label": "Email",
+                "email--placeholder": "Email",
+                "phone--label": "Phone",
+                "phone--placeholder": "Phone",
+                "password--label": "Password",
+                "submit--text": "Change"
+            },
+            "text--additional-contacts": "Additional contacts"
+        }
+    },
+    "pages.Profile.index": {
+        "tabs--profile": "Personal information",
+        "tabs--settings": "Settings",
+        "tabs--group-list": "Group list"
+    },
+    "pages.Profile.Contacts": {
+        "getContacts--error": "Failed to get user contacts",
+        "add--success": "Contact added",
+        "add--error": "Failed to add contact",
+        "remove--success": "Contact removed",
+        "remove--error": "Failed to remove contact",
+        "template": {
+            "show-button--text": "Additional contacts",
+            "Modal--title": "Additional contacts",
+            "available-contacts-title": "Available contacts",
+            "contact--Tooltip--title": "Copy",
+            "contact--Tooltip--clipboardCopy--success": "Copied",
+            "form-title": "Add",
+            "Form": {
+                "type--label": "Where is the contact",
+                "value--label": "Identifier",
+                "value--placeholder": "Identifier",
+                "submit--text": "Add"
+            }
+        }
+    },
+    "pages.Profile.Settings": {
+        "template": {
+            "text--Theme": "Theme",
+            "text--Language": "Language",
+            "text--main-page": "Home page for you"
+        }
+    },
+    "pages.Schedule.Schedule": {
+        "searchByTranslation--groups": "Group",
+        "searchByTranslation--teachers": "Teacher",
+        "searchGroupSchedule--error": "Error while searching for group schedule",
+        "searchTeacherSchedule--error": "Error finding instructor's schedule",
+        "useOnce--get-schedule-list--error": "Failed to get the list of groups",
+        "useOnce--get-teacher-list--error": "Failed to get the list of teachers",
+        "useEffect--get-studyGroup-by-ids": "Failed to get user group",
+        "template": {
+            "title": "Strict schedule",
+            "searchForm--groups--label": "Group name",
+            "searchForm--teachers--label": "Teacher",
+            "searchBy--label": "Search by",
+            "searchBy--groups--text": "Group name",
+            "searchBy--teachers--text": "Teacher",
+            "week--1--text": "1st week",
+            "week--2--text": "2nd week",
+            "Spin--tip": "Schedule is loading, please wait..."
+        }
+    },
+    "pages.Schedule.SchedulePair": {
+        "subjectTypes--1": "Practice",
+        "subjectTypes--2": "Lecture",
+        "subjectTypes--3": "Laboratory",
+        "subjectTypes--undefined": "Unknown"
+    },
+    "pages.Schedule.ScheduleTable": {
+        "dayNames-monday": "Mo",
+        "dayNames-tuesday": "Tu",
+        "dayNames-wednesday": "We",
+        "dayNames-thursday": "Th",
+        "dayNames-friday": "Fr",
+        "dayNames-saturday": "Sa",
+        "dayNames-sunday": "Su"
+    },
+    "utils.formRules": {
+        "required": {
+            "firstName": "First name required",
+            "lastName": "Last name required",
+            "patronymic": "Patronymic required",
+            "login": "Login required",
+            "password": "Password required",
+            "email": "Email required",
+            "shortName": "Short name required",
+            "fullName": "Full name required",
+            "code": "Code required",
+            "groupNumber": "Group number required",
+            "numberOfSemester": "Number of semester required",
+            "yearOfStudyStart": "Years of stude start required",
+            "departmentId": "Department required",
+            "name": "Name required",
+            "decryption": "Descryption required",
+            "controlType": "Control type required",
+            "studyGroupId": "Number of study group required",
+            "studyGroupIds": "Number of study groups required",
+            "phone": "Phone required",
+            "type": "Type required"
+        },
+        "valid": {
+            "email": "Invalid email"
+        },
+        "maxLength": {
+            "standard": "String length cannot exceed 255 characters"
+        },
+        "equalCheck": {
+            "repeatedPassword": "Passwords must match"
+        }
+    }
+}

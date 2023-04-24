@@ -1,0 +1,38 @@
+.ant-picker-calendar {
+  color: var(--text-dark-4);
+  background: var(--text-light-5);
+}
+.ant-picker-calendar .ant-picker-panel {
+  background: var(--text-light-5);
+  border-top: 1px solid var(--text-light-4);
+}
+.ant-picker-calendar-full .ant-picker-panel {
+  background: var(--text-light-5);
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell:hover .ant-picker-calendar-date {
+  background: var(--text-light-4);
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date,
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected:hover .ant-picker-calendar-date,
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date-today,
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected:hover .ant-picker-calendar-date-today {
+  background: var(--info-light-3);
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date .ant-picker-calendar-date-value,
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected:hover .ant-picker-calendar-date .ant-picker-calendar-date-value,
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date-today .ant-picker-calendar-date-value,
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected:hover .ant-picker-calendar-date-today .ant-picker-calendar-date-value {
+  color: var(--primary-base);
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date {
+  border-top: 2px solid var(--text-light-4);
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-content {
+  color: var(--text-dark-4);
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-today {
+  border-color: var(--primary-base);
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-today .ant-picker-calendar-date-value {
+  color: var(--text-dark-4);
+}

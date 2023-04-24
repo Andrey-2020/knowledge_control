@@ -1,0 +1,59 @@
+.SubjectCard {
+  background-color: var(--text-light-5);
+  border-radius: 12px;
+  padding: 8px;
+  word-break: break-all;
+  cursor: pointer;
+
+  .SubjectImage {
+    width: 100%;
+
+      img {
+        width: 100%;
+        background-size: cover;
+      }
+  }
+
+  .TeacherName {
+    color: var(--text-dark-2);
+    font-size: 12px;
+  }
+
+  .SubjectDescription {
+    font-size: 12px;
+    color: var(--text-light-1);
+    margin-top: 8px;
+  }
+
+  .SubjectType {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-base);
+    padding: 4px 20px;
+    background-color: var(--primary-dark-transparent);
+    border-radius: 4px;
+  }
+
+  .SubjectLink {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    .TaskIcon, .TestsIcon, .LiteratureIcon {
+      fill: var(--primary-light-2);
+    }
+
+    &:hover .TaskIcon {
+      fill: var(--orange-dark-1);
+    }
+
+    &:hover .TestsIcon {
+      fill: var(--volcano-dark-1);
+    }
+
+    &:hover .LiteratureIcon {
+      fill: var(--cyan-dark-1);
+    }
+  }
+}

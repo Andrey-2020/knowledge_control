@@ -1,0 +1,7 @@
+.ant-rate {
+  color: var(--gold-dark-1);
+}
+.ant-rate-star-first,
+.ant-rate-star-second {
+  color: var(--text-light-4);
+}

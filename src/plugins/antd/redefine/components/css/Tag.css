@@ -1,0 +1,186 @@
+.ant-tag {
+  color: var(--text-dark-4);
+  background: var(--text-light-5);
+  border: 1px solid var(--text-light-2);
+}
+.ant-tag,
+.ant-tag a,
+.ant-tag a:hover {
+  color: var(--text-dark-4);
+}
+.ant-tag-close-icon {
+  color: var(--text-dark-1);
+}
+.ant-tag-close-icon:hover {
+  color: var(--text-dark-4);
+}
+.ant-tag-has-color,
+.ant-tag-has-color a,
+.ant-tag-has-color a:hover,
+.ant-tag-has-color .anticon-close,
+.ant-tag-has-color .anticon-close:hover {
+  color: var(--text-light-5);
+}
+.ant-tag-checkable:not(.ant-tag-checkable-checked):hover {
+  color: var(--primary-base);
+}
+.ant-tag-checkable:active,
+.ant-tag-checkable-checked {
+  color: var(--text-light-5);
+}
+.ant-tag-checkable-checked {
+  background-color: var(--primary-base);
+}
+.ant-tag-checkable:active {
+  background-color: var(--primary-dark-2);
+}
+.ant-tag-pink {
+  color: var(--pink-dark-2);
+  background: var(--pink-light-2);
+  border-color: var(--pink-light-1);
+}
+.ant-tag-pink-inverse {
+  color: var(--text-light-5);
+  background: var(--pink-dark-1);
+  border-color: var(--pink-dark-1);
+}
+.ant-tag-magenta {
+  color: var(--magenta-dark-2);
+  background: var(--magenta-light-2);
+  border-color: var(--magenta-light-1);
+}
+.ant-tag-magenta-inverse {
+  color: var(--text-light-5);
+  background: var(--magenta-dark-1);
+  border-color: var(--magenta-dark-1);
+}
+.ant-tag-red {
+  color: var(--red-dark-2);
+  background: var(--red-light-2);
+  border-color: var(--red-light-1);
+}
+.ant-tag-red-inverse {
+  color: var(--text-light-5);
+  background: var(--red-dark-1);
+  border-color: var(--red-dark-1);
+}
+.ant-tag-volcano {
+  color: var(--volcano-dark-2);
+  background: var(--volcano-light-2);
+  border-color: var(--volcano-light-1);
+}
+.ant-tag-volcano-inverse {
+  color: var(--text-light-5);
+  background: var(--volcano-dark-1);
+  border-color: var(--volcano-dark-1);
+}
+.ant-tag-orange {
+  color: var(--orange-dark-2);
+  background: var(--orange-light-2);
+  border-color: var(--orange-light-1);
+}
+.ant-tag-orange-inverse {
+  color: var(--text-light-5);
+  background: var(--orange-dark-1);
+  border-color: var(--orange-dark-1);
+}
+.ant-tag-yellow {
+  color: var(--yellow-dark-2);
+  background: var(--yellow-light-2);
+  border-color: var(--yellow-light-1);
+}
+.ant-tag-yellow-inverse {
+  color: var(--text-light-5);
+  background: var(--yellow-dark-1);
+  border-color: var(--yellow-dark-1);
+}
+.ant-tag-gold {
+  color: var(--gold-dark-2);
+  background: var(--gold-light-2);
+  border-color: var(--gold-light-1);
+}
+.ant-tag-gold-inverse {
+  color: var(--text-light-5);
+  background: var(--gold-dark-1);
+  border-color: var(--gold-dark-1);
+}
+.ant-tag-cyan {
+  color: var(--cyan-dark-2);
+  background: var(--cyan-light-2);
+  border-color: var(--cyan-light-1);
+}
+.ant-tag-cyan-inverse {
+  color: var(--text-light-5);
+  background: var(--cyan-dark-1);
+  border-color: var(--cyan-dark-1);
+}
+.ant-tag-lime {
+  color: var(--lime-dark-2);
+  background: var(--lime-light-2);
+  border-color: var(--lime-light-1);
+}
+.ant-tag-lime-inverse {
+  color: var(--text-light-5);
+  background: var(--lime-dark-1);
+  border-color: var(--lime-dark-1);
+}
+.ant-tag-green {
+  color: var(--green-dark-2);
+  background: var(--green-light-2);
+  border-color: var(--green-light-1);
+}
+.ant-tag-green-inverse {
+  color: var(--text-light-5);
+  background: var(--green-dark-1);
+  border-color: var(--green-dark-1);
+}
+.ant-tag-blue {
+  color: var(--blue-dark-2);
+  background: var(--blue-light-2);
+  border-color: var(--blue-light-1);
+}
+.ant-tag-blue-inverse {
+  color: var(--text-light-5);
+  background: var(--blue-dark-1);
+  border-color: var(--blue-dark-1);
+}
+.ant-tag-geekblue {
+  color: var(--geekblue-dark-2);
+  background: var(--geekblue-light-2);
+  border-color: var(--geekblue-light-1);
+}
+.ant-tag-geekblue-inverse {
+  color: var(--text-light-5);
+  background: var(--geekblue-dark-1);
+  border-color: var(--geekblue-dark-1);
+}
+.ant-tag-purple {
+  color: var(--purple-dark-2);
+  background: var(--purple-light-2);
+  border-color: var(--purple-light-1);
+}
+.ant-tag-purple-inverse {
+  color: var(--text-light-5);
+  background: var(--purple-dark-1);
+  border-color: var(--purple-dark-1);
+}
+.ant-tag-success {
+  color: var(--success-dark-1);
+  background: var(--success-light-3);
+  border-color: var(--success-light-2);
+}
+.ant-tag-processing {
+  color: var(--info-dark-1);
+  background: var(--info-light-3);
+  border-color: var(--info-light-2);
+}
+.ant-tag-error {
+  color: var(--error-dark-1);
+  background: var(--error-light-3);
+  border-color: var(--error-light-2);
+}
+.ant-tag-warning {
+  color: var(--warning-dark-1);
+  background: var(--warning-light-3);
+  border-color: var(--warning-light-2);
+}

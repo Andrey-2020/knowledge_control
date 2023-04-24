@@ -1,0 +1,46 @@
+body {
+  color: var(--text-base);
+  margin: 0;
+  min-height: 100vh;
+  font-family: Inter !important;
+}
+body * {
+  font-family: Inter !important;
+}
+
+.no-support-card {
+  text-align: center;
+  padding: 12px;
+  margin: auto;
+  width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+.no-support-card:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.no-support-card > a {
+  font-weight: 700;
+}
+
+.error-boundary {
+  position: relative;
+  left: 25vw;
+  top: 25vh;
+  min-width: 300px;
+  width: 50%;
+  text-align: justify;
+  border: 3px solid rgb(90, 156, 255);
+  border-radius: 16px;
+}
+.error-boundary > button {
+  font-size: 2rem;
+}
+.error-boundary > small {
+  font-size: 1.25rem;
+  padding: 0 4px;
+}
+.question{
+  user-select: none; 
+}

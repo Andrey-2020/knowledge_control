@@ -1,0 +1,55 @@
+.ScheduleTable {
+    max-width: calc(100% + 24px + 24px);
+    overflow-x: auto;
+    background-color: var(--text-light-4);
+
+    table td {
+        &:first-child {
+            text-align: center;
+            font-weight: bold;
+            min-width: 40px;
+        }
+    
+        &:not(:first-child) {
+            border: 1px solid var(--primary-light-3);
+            padding: 4px !important;
+
+            min-width: 200px;
+
+            .schedule-pair {
+                $strip-width: 8px;
+
+                border-radius: 12px;
+                background-color: var(--text-light-5);
+                position: relative;
+                padding-left: $strip-width;
+
+                min-width: 200px;
+                min-height: 100px;
+            
+                > div:first-child {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: $strip-width;
+                    border-radius: 12px 0 0 12px;
+            
+                    &.pract {
+                        background-color: var(--orange-dark-1);
+                    }
+                    &.lect {
+                        background-color: var(--blue-dark-1);
+                    }
+                    &.lab {
+                        background-color: var(--green-dark-1);
+                    }
+                    &.undefined {
+                        background-color: transparent;
+                    }
+                }
+            }
+            
+        }
+    }
+}

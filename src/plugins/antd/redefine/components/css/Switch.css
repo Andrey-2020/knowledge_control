@@ -1,0 +1,27 @@
+.ant-switch {
+  color: var(--text-dark-4);
+  background-color: var(--shadow-dark-1);
+}
+.ant-switch:focus {
+  box-shadow: 0 0 0 2px var(--shadow-light-2);
+}
+.ant-switch-checked:focus {
+  box-shadow: 0 0 0 2px var(--primary-dark-transparent);
+}
+.ant-switch-checked {
+  background-color: var(--primary-base);
+}
+.ant-switch-inner {
+  color: var(--text-light-5);
+}
+.ant-switch-handle::before {
+  background-color: var(--text-light-5);
+  box-shadow: 0 2px 4px 0 var(--shadow-base);
+  content: '';
+}
+.ant-switch-loading-icon {
+  color: var(--text-dark-3);
+}
+.ant-switch-checked .ant-switch-loading-icon {
+  color: var(--primary-base);
+}

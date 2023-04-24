@@ -1,0 +1,35 @@
+.questionComparis__lists{
+
+}
+.questionComparis__leftList,
+.questionComparis__leftRight{
+    display: flex;
+    flex-direction: column;
+
+}
+.questionComparis__header-table{
+    text-align: center;
+    background-color: #eee;
+    padding: 7px 13px;
+    min-width: 200px;
+    font-size: 13px;
+}
+
+.questionComparis__rowList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+    margin-bottom: 10px;
+}
+.questionComparis__rowList:last-child{
+    margin-bottom: 0;
+}
+.questionComparis__rowList-text{
+
+}

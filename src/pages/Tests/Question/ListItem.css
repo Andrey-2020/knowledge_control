@@ -1,0 +1,20 @@
+.questionComparis__leftList_sequence{
+    list-style: none;
+}
+.questionComparis__rowList_sequence{
+    cursor: move;
+    
+}
+.listItem{
+    display: flex;
+    flex-direction: row;
+}
+.listItem__text{
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

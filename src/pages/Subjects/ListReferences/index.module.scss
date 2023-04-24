@@ -1,0 +1,26 @@
+.literature-card {
+  background-color: var(--text-light-5);
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+
+  .special-width {
+    display: inline-block;
+    min-width: 90px;
+  }
+
+  .literature-type {
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+
+  .blue-container {
+    background-color: var(--blue-light-2);
+    color: var(--blue-dark-1);
+  }
+
+  .red-container {
+    background-color: var(--red-light-2);
+    color: var(--red-dark-1);
+  }
+}

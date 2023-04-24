@@ -1,0 +1,61 @@
+.ant-drawer-left.ant-drawer-open .ant-drawer-content-wrapper {
+  box-shadow:
+    6px 0 16px -8px var(--shadow-light-2),
+    9px 0 28px 0 var(--shadow-light-3),
+    12px 0 48px 16px var(--shadow-light-4);
+}
+.ant-drawer-right.ant-drawer-open .ant-drawer-content-wrapper {
+  box-shadow:
+    -6px 0 16px -8px var(--shadow-light-2),
+    -9px 0 28px 0 var(--shadow-light-3),
+    -12px 0 48px 16px var(--shadow-light-4);
+}
+.ant-drawer-top.ant-drawer-open .ant-drawer-content-wrapper {
+  box-shadow:
+    0 6px 16px -8px var(--shadow-light-2),
+    0 9px 28px 0 var(--shadow-light-3),
+    0 12px 48px 16px var(--shadow-light-4);
+}
+.ant-drawer-bottom.ant-drawer-open .ant-drawer-content-wrapper {
+  box-shadow:
+    0 -6px 16px -8px var(--shadow-light-2),
+    0 -9px 28px 0 var(--shadow-light-3),
+    0 -12px 48px 16px var(--shadow-light-4);
+}
+.ant-drawer-title {
+  color: var(--text-dark-4);
+}
+.ant-drawer-content {
+  background-color: var(--text-light-5);
+}
+.ant-drawer-close {
+  color: var(--text-dark-1);
+}
+.ant-drawer-close:focus,
+.ant-drawer-close:hover {
+  color: var(--text-dark-3);
+}
+.ant-drawer-header {
+  color: var(--text-dark-4);
+  background: var(--text-light-5);
+  border-bottom: 1px solid var(--text-light-4);
+}
+.ant-drawer-header-no-title {
+  color: var(--text-dark-4);
+  background: var(--text-light-5);
+}
+.ant-drawer-footer {
+  border-top: 1px solid var(--text-light-4);
+}
+.ant-drawer-mask {
+  background-color: var(--shadow-dark-2);
+}
+.ant-drawer-open-content {
+  box-shadow:
+    0 3px 6px -4px var(--shadow-light-1),
+    0 6px 16px 0 var(--shadow-light-2),
+    0 9px 28px 8px var(--shadow-light-3);
+}
+.ant-drawer .ant-picker-clear {
+  background: var(--text-light-5);
+}

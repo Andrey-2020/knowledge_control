@@ -1,0 +1,88 @@
+.ant-select-single.ant-select-open .ant-select-selection-item {
+  color: var(--text-light-2);
+}
+.ant-select-disabled.ant-select-multiple .ant-select-selector {
+  background: var(--text-light-4);
+}
+.ant-select-multiple .ant-select-selection-item {
+  background: var(--text-light-4);
+  border: 1px solid var(--text-light-4);
+}
+.ant-select-disabled.ant-select-multiple .ant-select-selection-item {
+  color: var(--text-light-2);
+  border-color: var(--text-light-2);
+}
+.ant-select-multiple .ant-select-selection-item-remove {
+  color: var(--text-dark-1);
+}
+.ant-select-multiple .ant-select-selection-item-remove:hover {
+  color: var(--text-dark-3);
+}
+.ant-select {
+  color: var(--text-dark-4);
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: var(--text-light-5);
+  border: 1px solid var(--text-light-2);
+}
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: var(--primary-dark-1);
+  box-shadow: 0 0 0 2px var(--primary-dark-transparent);
+}
+.ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  color: var(--text-light-2);
+  background: var(--text-light-4);
+}
+.ant-select-multiple.ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background: var(--text-light-4);
+}
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-color: var(--primary-dark-1);
+}
+.ant-select-selection-placeholder {
+  color: var(--text-light-2);
+}
+.ant-select-arrow {
+  color: var(--text-light-2);
+}
+.ant-select-clear {
+  color: var(--text-light-2);
+  background: var(--text-light-5);
+}
+.ant-select-clear:hover {
+  color: var(--text-dark-1);
+}
+.ant-select-dropdown {
+  color: var(--text-dark-4);
+  background-color: var(--text-light-5);
+  box-shadow:
+    0 3px 6px -4px var(--shadow-light-1),
+    0 6px 16px 0 var(--shadow-light-2),
+    0 9px 28px 8px var(--shadow-light-3);
+}
+.ant-select-dropdown-empty {
+  color: var(--text-light-2);
+}
+.ant-select-item-empty {
+  color: var(--text-dark-4);
+  color: var(--text-light-2);
+}
+.ant-select-item {
+  color: var(--text-dark-4);
+}
+.ant-select-item-group {
+  color: var(--text-dark-1);
+}
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: var(--text-light-4);
+}
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  color: var(--text-dark-4);
+  background-color: var(--info-light-3);
+}
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) .ant-select-item-option-state {
+  color: var(--primary-base);
+}
+.ant-select-item-option-disabled {
+  color: var(--text-light-2);
+}

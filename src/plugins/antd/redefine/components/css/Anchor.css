@@ -1,0 +1,19 @@
+.ant-anchor {
+  color: var(--text-dark-4);
+}
+.ant-anchor-wrapper {
+  background-color: var(--text-light-5);
+}
+.ant-anchor-ink::before {
+  background-color: var(--text-light-4);
+}
+.ant-anchor-ink-ball {
+  background-color: var(--text-light-5);
+  border: 2px solid var(--primary-base);
+}
+.ant-anchor-link-title {
+  color: var(--text-dark-4);
+}
+.ant-anchor-link-active > .ant-anchor-link-title {
+  color: var(--primary-base);
+}

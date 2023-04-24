@@ -1,0 +1,103 @@
+.ant-upload {
+  color: var(--text-dark-4);
+}
+.ant-upload.ant-upload-select-picture-card {
+  background-color: var(--text-light-5);
+  border: 1px dashed var(--text-light-2);
+}
+.ant-upload.ant-upload-select-picture-card:hover {
+  border-color: var(--primary-base);
+}
+.ant-upload-disabled.ant-upload.ant-upload-select-picture-card:hover {
+  border-color: var(--text-light-2);
+}
+.ant-upload.ant-upload-drag {
+  background: var(--text-light-5);
+  border: 1px dashed var(--text-light-2);
+}
+.ant-upload.ant-upload-drag.ant-upload-drag-hover:not(.ant-upload-disabled) {
+  border-color: var(--primary-dark-2);
+}
+.ant-upload.ant-upload-drag:not(.ant-upload-disabled):hover {
+  border-color: var(--primary-dark-1);
+}
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon .anticon {
+  color: var(--primary-dark-1);
+}
+.ant-upload.ant-upload-drag p.ant-upload-text {
+  color: var(--text-dark-4);
+}
+.ant-upload.ant-upload-drag p.ant-upload-hint {
+  color: var(--text-dark-1);
+}
+.ant-upload.ant-upload-drag .anticon-plus {
+  color: var(--text-light-2);
+}
+.ant-upload.ant-upload-drag .anticon-plus:hover {
+  color: var(--text-dark-1);
+}
+.ant-upload.ant-upload-drag:hover .anticon-plus {
+  color: var(--text-dark-1);
+}
+.ant-upload-list {
+  color: var(--text-dark-4);
+}
+.ant-upload-list-item-card-actions .anticon {
+  color: var(--text-dark-1);
+}
+.ant-upload-list-item-info .anticon-loading .anticon,
+.ant-upload-list-item-info .ant-upload-text-icon .anticon {
+  color: var(--text-dark-1);
+}
+.ant-upload-list-item .anticon-close {
+  color: var(--text-dark-1);
+}
+.ant-upload-list-item .anticon-close:hover {
+  color: var(--text-dark-4);
+}
+.ant-upload-list-item:hover .ant-upload-list-item-info {
+  background-color: var(--text-light-4);
+}
+.ant-upload-list-item-error,
+.ant-upload-list-item-error .ant-upload-text-icon > .anticon,
+.ant-upload-list-item-error .ant-upload-list-item-name {
+  color: var(--error-base);
+}
+.ant-upload-list-item-error .ant-upload-list-item-card-actions .anticon {
+  color: var(--error-base);
+}
+.ant-upload-list-picture .ant-upload-list-item,
+.ant-upload-list-picture-card .ant-upload-list-item {
+  border: 1px solid var(--text-light-2);
+}
+.ant-upload-list-picture .ant-upload-list-item-error,
+.ant-upload-list-picture-card .ant-upload-list-item-error {
+  border-color: var(--error-base);
+}
+.ant-upload-list-picture .ant-upload-list-item-error .ant-upload-list-item-thumbnail .anticon svg path[fill='var(--info-light-3)'],
+.ant-upload-list-picture-card .ant-upload-list-item-error .ant-upload-list-item-thumbnail .anticon svg path[fill='var(--info-light-3)'] {
+  fill: var(--error-light-3);
+}
+.ant-upload-list-picture .ant-upload-list-item-error .ant-upload-list-item-thumbnail .anticon svg path[fill='var(--primary-base)'],
+.ant-upload-list-picture-card .ant-upload-list-item-error .ant-upload-list-item-thumbnail .anticon svg path[fill='var(--primary-base)'] {
+  fill: var(--error-base);
+}
+.ant-upload-list-picture-card .ant-upload-list-item-info::before {
+  background-color: var(--shadow-dark-2);
+}
+.ant-upload-list-picture-card .ant-upload-list-item:hover .ant-upload-list-item-info::before {
+  opacity: 1;
+}
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-eye,
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-download,
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-delete {
+  color: var(--text-light-transparent-2);
+}
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-eye:hover,
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-download:hover,
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-delete:hover {
+  color: var(--text-light-5);
+}
+.ant-upload-list-picture-card .ant-upload-list-item-uploading.ant-upload-list-item {
+  background-color: var(--text-light-5);
+}

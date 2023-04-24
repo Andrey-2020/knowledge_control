@@ -1,0 +1,21 @@
+.ant-comment-content-author-name {
+  color: var(--text-dark-1);
+}
+.ant-comment-content-author-name > * {
+  color: var(--text-dark-1);
+}
+.ant-comment-content-author-name > *:hover {
+  color: var(--text-dark-1);
+}
+.ant-comment-content-author-time {
+  color: var(--text-light-2);
+}
+.ant-comment-actions > li {
+  color: var(--text-dark-1);
+}
+.ant-comment-actions > li > span {
+  color: var(--text-dark-1);
+}
+.ant-comment-actions > li > span:hover {
+  color: var(--text-dark-2);
+}

@@ -1,0 +1,51 @@
+.ant-list {
+  color: var(--text-dark-4);
+}
+.ant-list-empty-text {
+  color: var(--text-light-2);
+}
+.ant-list-item {
+  color: var(--text-dark-4);
+}
+.ant-list-item-meta-content {
+  color: var(--text-dark-4);
+}
+.ant-list-item-meta-title {
+  color: var(--text-dark-4);
+}
+.ant-list-item-meta-title > a {
+  color: var(--text-dark-4);
+}
+.ant-list-item-meta-title > a:hover {
+  color: var(--primary-base);
+}
+.ant-list-item-meta-description {
+  color: var(--text-dark-1);
+}
+.ant-list-item-action > li {
+  color: var(--text-dark-1);
+}
+.ant-list-item-action-split {
+  background-color: var(--text-light-3);
+}
+.ant-list-empty {
+  color: var(--text-dark-1);
+}
+.ant-list-split .ant-list-item {
+  border-bottom: 1px solid var(--text-light-3);
+}
+.ant-list-split .ant-list-header {
+  border-bottom: 1px solid var(--text-light-3);
+}
+.ant-list-split.ant-list-empty .ant-list-footer {
+  border-top: 1px solid var(--text-light-3);
+}
+.ant-list-split.ant-list-something-after-last-item .ant-spin-container > .ant-list-items > .ant-list-item:last-child {
+  border-bottom: 1px solid var(--text-light-3);
+}
+.ant-list-vertical .ant-list-item-meta-title {
+  color: var(--text-dark-4);
+}
+.ant-list-bordered {
+  border: 1px solid var(--text-light-2);
+}

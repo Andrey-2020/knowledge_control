@@ -1,0 +1,21 @@
+.ant-result-success .ant-result-icon > .anticon {
+  color: var(--success-dark-1);
+}
+.ant-result-error .ant-result-icon > .anticon {
+  color: var(--error-base);
+}
+.ant-result-info .ant-result-icon > .anticon {
+  color: var(--info-base);
+}
+.ant-result-warning .ant-result-icon > .anticon {
+  color: var(--warning-base);
+}
+.ant-result-title {
+  color: var(--text-dark-4);
+}
+.ant-result-subtitle {
+  color: var(--text-dark-1);
+}
+.ant-result-content {
+  background-color: var(--text-light-5);
+}

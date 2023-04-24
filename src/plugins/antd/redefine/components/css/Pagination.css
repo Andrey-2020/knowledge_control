@@ -1,0 +1,139 @@
+.ant-pagination {
+  color: var(--text-dark-4);
+}
+.ant-pagination-item {
+  background-color: var(--text-light-5);
+  border: 1px solid var(--text-light-2);
+}
+.ant-pagination-item a {
+  color: var(--text-dark-4);
+}
+.ant-pagination-item:focus-visible,
+.ant-pagination-item:hover {
+  border-color: var(--primary-base);
+}
+.ant-pagination-item:focus-visible a,
+.ant-pagination-item:hover a {
+  color: var(--primary-base);
+}
+.ant-pagination-item-active {
+  background: var(--text-light-5);
+  border-color: var(--primary-base);
+}
+.ant-pagination-item-active a {
+  color: var(--primary-base);
+}
+.ant-pagination-item-active:focus-visible,
+.ant-pagination-item-active:hover {
+  border-color: var(--primary-dark-1);
+}
+.ant-pagination-item-active:focus-visible a,
+.ant-pagination-item-active:hover a {
+  color: var(--primary-dark-1);
+}
+.ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-link-icon,
+.ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-link-icon {
+  color: var(--primary-base);
+}
+.ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-ellipsis,
+.ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-ellipsis {
+  color: var(--text-light-2);
+}
+.ant-pagination-prev,
+.ant-pagination-next,
+.ant-pagination-jump-prev,
+.ant-pagination-jump-next {
+  color: var(--text-dark-4);
+}
+.ant-pagination-prev button,
+.ant-pagination-next button {
+  color: var(--text-dark-4);
+}
+.ant-pagination-prev:hover button,
+.ant-pagination-next:hover button {
+  border-color: var(--primary-dark-1);
+}
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+  background-color: var(--text-light-5);
+  border: 1px solid var(--text-light-2);
+}
+.ant-pagination-prev:focus-visible .ant-pagination-item-link,
+.ant-pagination-next:focus-visible .ant-pagination-item-link,
+.ant-pagination-prev:hover .ant-pagination-item-link,
+.ant-pagination-next:hover .ant-pagination-item-link {
+  color: var(--primary-base);
+  border-color: var(--primary-base);
+}
+.ant-pagination-disabled .ant-pagination-item-link,
+.ant-pagination-disabled:hover .ant-pagination-item-link,
+.ant-pagination-disabled:focus-visible .ant-pagination-item-link {
+  color: var(--text-light-2);
+  border-color: var(--text-light-2);
+}
+.ant-pagination-options-quick-jumper input {
+  color: var(--text-dark-4);
+  background-color: var(--text-light-5);
+  border: 1px solid var(--text-light-2);
+}
+.ant-pagination-options-quick-jumper input:-ms-input-placeholder {
+  color: var(--text-light-2);
+}
+.ant-pagination-options-quick-jumper input::placeholder {
+  color: var(--text-light-2);
+}
+.ant-pagination-options-quick-jumper input:hover {
+  border-color: var(--primary-dark-1);
+}
+.ant-pagination-options-quick-jumper input:focus,
+.ant-pagination-options-quick-jumper input-focused {
+  border-color: var(--primary-dark-1);
+  box-shadow: 0 0 0 2px var(--primary-dark-transparent);
+}
+.ant-pagination-options-quick-jumper input-disabled {
+  color: var(--text-light-2);
+  background-color: var(--text-light-4);
+}
+.ant-pagination-options-quick-jumper input-disabled:hover {
+  border-color: var(--text-light-2);
+}
+.ant-pagination-options-quick-jumper input[disabled] {
+  color: var(--text-light-2);
+  background-color: var(--text-light-4);
+}
+.ant-pagination-options-quick-jumper input[disabled]:hover {
+  border-color: var(--text-light-2);
+}
+.ant-pagination-simple .ant-pagination-simple-pager input {
+  background-color: var(--text-light-5);
+  border: 1px solid var(--text-light-2);
+}
+.ant-pagination-simple .ant-pagination-simple-pager input:hover {
+  border-color: var(--primary-base);
+}
+.ant-pagination-simple .ant-pagination-simple-pager input[disabled] {
+  color: var(--text-light-2);
+  background: var(--text-light-4);
+  border-color: var(--text-light-2);
+}
+.ant-pagination.ant-pagination-disabled .ant-pagination-item {
+  background: var(--text-light-4);
+  border-color: var(--text-light-2);
+}
+.ant-pagination.ant-pagination-disabled .ant-pagination-item a {
+  color: var(--text-light-2);
+}
+.ant-pagination.ant-pagination-disabled .ant-pagination-item-active {
+  background: var(--text-light-2);
+}
+.ant-pagination.ant-pagination-disabled .ant-pagination-item-active a {
+  color: var(--text-light-5);
+}
+.ant-pagination.ant-pagination-disabled .ant-pagination-item-link {
+  color: var(--text-light-2);
+  background: var(--text-light-4);
+  border-color: var(--text-light-2);
+}
+.ant-pagination.ant-pagination-disabled .ant-pagination-simple-pager {
+  color: var(--text-light-2);
+}

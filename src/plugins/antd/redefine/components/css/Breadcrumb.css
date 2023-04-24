@@ -1,0 +1,18 @@
+.ant-breadcrumb {
+  color: var(--text-dark-1);
+}
+.ant-breadcrumb a {
+  color: var(--text-dark-1);
+}
+.ant-breadcrumb a:hover {
+  color: var(--primary-dark-1);
+}
+.ant-breadcrumb > span:last-child {
+  color: var(--text-dark-4);
+}
+.ant-breadcrumb > span:last-child a {
+  color: var(--text-dark-4);
+}
+.ant-breadcrumb-separator {
+  color: var(--text-dark-1);
+}

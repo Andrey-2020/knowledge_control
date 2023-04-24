@@ -1,0 +1,36 @@
+.ant-empty-normal {
+  color: var(--text-light-2);
+}
+.ant-empty-small {
+  color: var(--text-light-2);
+}
+.ant-empty-img-default-ellipse {
+  fill: var(--text-light-4);
+}
+.ant-empty-img-default-path-1 {
+  fill: var(--text-light-1);
+}
+.ant-empty-img-default-path-2 {
+  fill: url(#linearGradient-1);
+}
+.ant-empty-img-default-path-3 {
+  fill: var(--text-light-4);
+}
+.ant-empty-img-default-path-4 {
+  fill: var(--text-light-3);
+}
+.ant-empty-img-default-path-5 {
+  fill: var(--text-light-3);
+}
+.ant-empty-img-default-g {
+  fill: var(--text-light-5);
+}
+.ant-empty-img-simple-ellipse {
+  fill: var(--text-light-4);
+}
+.ant-empty-img-simple-g {
+  stroke: var(--text-light-2);
+}
+.ant-empty-img-simple-path {
+  fill: var(--text-light-5);
+}

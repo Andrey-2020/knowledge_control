@@ -1,0 +1,55 @@
+.ant-progress {
+  color: var(--text-dark-4);
+}
+.ant-progress-steps-item-active {
+  background: var(--primary-base);
+}
+.ant-progress-inner {
+  background-color: var(--text-light-4);
+}
+.ant-progress-circle-trail {
+  stroke: var(--text-light-4);
+}
+.ant-progress-inner:not(.ant-progress-circle-gradient) .ant-progress-circle-path {
+  stroke: var(--primary-base);
+}
+.ant-progress-success-bg,
+.ant-progress-bg {
+  background-color: var(--primary-base);
+}
+.ant-progress-success-bg {
+  background-color: var(--success-dark-1);
+}
+.ant-progress-text {
+  color: var(--text-dark-4);
+}
+.ant-progress-status-active .ant-progress-bg::before {
+  background: var(--text-light-5);
+}
+.ant-progress-status-exception .ant-progress-bg {
+  background-color: var(--error-base);
+}
+.ant-progress-status-exception .ant-progress-text {
+  color: var(--error-base);
+}
+.ant-progress-status-exception .ant-progress-inner:not(.ant-progress-circle-gradient) .ant-progress-circle-path {
+  stroke: var(--error-base);
+}
+.ant-progress-status-success .ant-progress-bg {
+  background-color: var(--success-dark-1);
+}
+.ant-progress-status-success .ant-progress-text {
+  color: var(--success-dark-1);
+}
+.ant-progress-status-success .ant-progress-inner:not(.ant-progress-circle-gradient) .ant-progress-circle-path {
+  stroke: var(--success-dark-1);
+}
+.ant-progress-circle .ant-progress-text {
+  color: var(--text-dark-4);
+}
+.ant-progress-circle.ant-progress-status-exception .ant-progress-text {
+  color: var(--error-base);
+}
+.ant-progress-circle.ant-progress-status-success .ant-progress-text {
+  color: var(--success-dark-1);
+}

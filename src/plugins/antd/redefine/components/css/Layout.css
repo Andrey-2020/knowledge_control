@@ -1,0 +1,36 @@
+.ant-layout {
+  background: var(--text-light-4);
+}
+.ant-layout-header {
+  color: var(--text-dark-4);
+  background: var(--text-dark-4);
+}
+.ant-layout-footer {
+  color: var(--text-dark-4);
+  background: var(--text-light-4);
+}
+.ant-layout-sider {
+  background: var(--text-dark-4);
+}
+.ant-layout-sider-trigger {
+  color: var(--text-light-5);
+  background: var(--text-dark-4);
+}
+.ant-layout-sider-zero-width-trigger {
+  color: var(--text-light-5);
+  background: var(--text-dark-4);
+}
+.ant-layout-sider-zero-width-trigger:hover::after {
+  background: var(--text-dark-transparent-2);
+}
+.ant-layout-sider-light {
+  background: var(--text-light-5);
+}
+.ant-layout-sider-light .ant-layout-sider-trigger {
+  color: var(--text-dark-4);
+  background: var(--text-light-5);
+}
+.ant-layout-sider-light .ant-layout-sider-zero-width-trigger {
+  color: var(--text-dark-4);
+  background: var(--text-light-5);
+}

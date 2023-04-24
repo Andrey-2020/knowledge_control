@@ -1,0 +1,705 @@
+{
+    "globalStore.constants": {
+        "ROLES": {
+            "USER": "Ученик",
+            "TEACHER": "Учитель",
+            "ADMIN": "Админ"
+        },
+        "CONTROL_TYPES": {
+            "EXAM": "Экзамен",
+            "CREDIT": "Зачёт",
+            "DIFFERENTIAL_CREDIT": "Зачёт с оценкой"
+        },
+        "QUESTIONS_TYPES": {
+            "SELECT": "Выбор нескольких",
+            "WRITE": "Написать что-то",
+            "SEQUENCE": "Правильная последовательность",
+            "MATCH": "Сопоставление"
+        },
+        "TASK_TYPES": {
+            "LAB": "Лабораторная работа",
+            "PRACTICE": "Практическая работа",
+            "COURSEWORK": "Курсовая работа",
+            "ESSAY": "Эссе"
+        },
+        "MARK_TYPES": {
+            "FIVE": "Отлично",
+            "FOUR": "Хорошо",
+            "THREE": "Удовлетворительно",
+            "UNSATISFACTORILY": "Неудовлетворительно",
+            "NOT_PASSED": "Не сдано",
+            "PASSED": "Сдано",
+            "DISAPPOINTINGLY": "Разочаровательно"
+        },
+        "LITERATURE_TYPES": {
+            "BOOK": "Книга",
+            "WORKBOOK": "Методичка"
+        },
+        "USER_CONTACT_TYPES": {
+            "EMAIL": "Электронная почта",
+            "TELEGRAM": "Телеграмм",
+            "VKONTAKTE": "ВКонтакте"
+        }
+    },
+    "pages.routes": {
+        "AuthorizationStateRedirect--error": "Неправильный адрес, вы перенаправлены",
+        "routes": {
+            "Profile": "Профиль",
+            "Main": "Главная",
+            "Schedule": "Расписание",
+            "Subjects": "Предметы",
+            "Administration": "Администрирование"
+        }
+    },
+    "pages.Login.index": {
+        "send--error": "Неудачная попытка входа",
+        "template": {
+            "title": "Вход",
+            "text--Language": "Язык",
+            "text--Theme": "Тема",
+            "button-on-main--text": "На главную",
+            "text--title": "Добро пожаловать в Learn.Ulstu",
+            "text--description": "Веб-приложение для автоматизации обучения в УлГТУ",
+            "text--Authorization": "Авторизация",
+            "Form": {
+                "login--placeholder": "Введите логин",
+                "password--placeholder": "Введите пароль",
+                "submit--text": "Войти"
+            }
+        }
+    },
+    "pages.Main.index": {
+        "useOnce": {
+            "get-performance": {
+                "error": "Ошибка при получении статистики"
+            }
+        },
+        "template" : {
+            "title": "Самая главная",
+            "img-alt--logo": "Лого",
+            "img-logo--overdue-works": "Картинка просроченных работ",
+            "overdue-works_0": "Просроченная работа",
+            "overdue-works_1": "Просроченные работы",
+            "overdue-works_2": "Просроченных работ",
+            "img-logo--completed-tests": "Картинка выполненных тестов",
+            "completed-tests_0": "Выполненный тест",
+            "completed-tests_1": "Выполненных теста",
+            "completed-tests_2": "Выполненных тестов",
+            "img-logo--completed-works": "Картинка сданных работ",
+            "completed-works_0": "Сданная работа",
+            "completed-works_1": "Сданные работы",
+            "completed-works_2": "Сданных работ",
+            "answers-for-completed-works": "Ответы по сданным работам",
+            "attendance": "Посещаемость"
+        }
+    },
+    "pages._WrapperMenu.index": {
+        "confirmLogout": {
+            "title": "Вы действительно хотите выйти?",
+            "okText": "Да",
+            "cancelText": "Нет"
+        },
+        "fullName--incognita": "Инкогнито",
+        "template": {
+            "AutoComplete--placeholder": "Поиск",
+            "Avatar-alt": "Аватарка",
+            "Tooltip--title": "Выход",
+            "login-button--text": "Войти"
+        }
+    },
+    "pages._WrapperMenu.SmallUserSettings": {
+        "template": {
+            "Popover--title": "Маленькие настройки",
+            "text--Theme": "Тема",
+            "text--Language": "Язык",
+            "button-to-full-settings--text": "К большим настройкам"
+        }
+    },
+    "pages.Administration.Departments.AddDepartmentModalButton": {
+        "add--success": "Кафедра успешно добавлена",
+        "add--error": "Не удалось добавить кафедру",
+        "template": {
+            "show-button--text": "Добавить",
+            "Modal--title": "Добавление новой кафедры",
+            "Form": {
+                "shortName--label": "Короткое название",
+                "shortName--placeholder": "Короткое название",
+                "fullName--label": "Полное название",
+                "fullName--placeholder": "Полное название",
+                "facultyId--label": "Факультет",
+                "facultyId--placeholder": "Факультет",
+                "submit--text": "Добавить"
+            }
+        }
+    },
+    "pages.Administration.Departments.ChangeDepartmentModalButton": {
+        "change--success": "Кафедра успешно изменена",
+        "change--error": "Не удалось изменить кафедру",
+        "template": {
+            "show-button--text": "Изменить",
+            "Modal--title": "Изменение факультета",
+            "Form": {
+                "shortName--label": "Короткое название",
+                "shortName--placeholder": "Короткое название",
+                "fullName--label": "Полное название",
+                "fullName--placeholder": "Полное название",
+                "facultyId--label": "Факультет",
+                "facultyId--placeholder": "Факультет",
+                "submit--text": "Изменить"
+            }
+        }
+    },
+    "pages.Administration.Departments.index": {
+        "remove": {
+            "title": "Удаление",
+            "content": "Вы действительно хотите удалить кафедры?",
+            "okText": "Да",
+            "cancelText": "Нет",
+            "onOk--success": "Кафедры успешно удалёны",
+            "onOk--error": "Не удалось удалить кафедры"
+        },
+        "columns": {
+            "shortName--title": "Короткое название",
+            "fullName--title": "Полное название",
+            "facultyId--title": "Факультет",
+            "facultyId--render--empty": "Нет факультета",
+            "studyGroupIds--title": "Учебные группы",
+            "studyGroupIds--render--empty": "Нет",
+            "subjectIds--title": "Предметы",
+            "subjectIds--render--empty": "Нет",
+            "actions--title": "Действия",
+            "actions--render--delete--text": "Удалить"
+        },
+        "template": {
+            "fast-search--placeholder": "Быстрый поиск",
+            "button-delete-selected--text": "Удалить выбранные"
+        }
+    },
+    "pages.Administration.Faculties.AddFacultyModalButton": {
+        "add--success": "Факультет успешно добавлен",
+        "add--error": "Не удалось добавить факультет",
+        "template": {
+            "show-button--text": "Добавить",
+            "Modal--title": "Добавление нового факультета",
+            "Form": {
+                "shortName--label": "Короткое название",
+                "shortName--placeholder": "Короткое название",
+                "fullName--label": "Полное название",
+                "fullName--placeholder": "Полное название",
+                "submit--text": "Добавить"
+            }
+        }
+    },
+    "pages.Administration.Faculties.ChangeFacultyModalButton": {
+        "change--success": "Факультет успешно изменён",
+        "change--error": "Не удалось изменить факультет",
+        "template": {
+            "show-button--text": "Изменить",
+            "Modal--title": "Изменение факультета",
+            "Form": {
+                "shortName--label": "Короткое название",
+                "shortName--placeholder": "Короткое название",
+                "fullName--label": "Полное название",
+                "fullName--placeholder": "Полное название",
+                "submit--text": "Изменить"
+            }
+        }
+    },
+    "pages.Administration.Faculties.index": {
+        "remove": {
+            "title": "Удаление",
+            "content": "Вы действительно хотите удалить факультеты?",
+            "okText": "Да",
+            "cancelText": "Нет",
+            "onOk--success": "Факультеты успешно удалёны",
+            "onOk--error": "Не удалось удалить факультеты"
+        },
+        "columns": {
+            "shortName--title": "Короткое название",
+            "fullName--title": "Полное название",
+            "departmentIds--title": "Факультет",
+            "departmentIds--render--empty": "Нет",
+            "actions--title": "Действия",
+            "actions--render--delete--text": "Удалить"
+        },
+        "template": {
+            "fast-search--placeholder": "Быстрый поиск",
+            "button-delete-selected--text": "Удалить выбранные"
+        }
+    },
+    "pages.Administration.StudyGroups.AddStudyGroupModalButton": {
+        "add--success": "Учебная группа успешно добавлена",
+        "add--error": "Не удалось добавить учебную группу",
+        "template": {
+            "show-button--text": "Добавить",
+            "Modal--title": "Добавление новой учебной группы",
+            "Form": {
+                "shortName--label": "Короткое название",
+                "shortName--placeholder": "Короткое название",
+                "fullName--label": "Полное название",
+                "fullName--placeholder": "Полное название",
+                "code--label": "Код",
+                "code--placeholder": "Код",
+                "groupNumber--label": "Номер группы",
+                "groupNumber--placeholder": "Номер группы",
+                "numberOfSemester--label": "Номер семестра",
+                "yearOfStudyStart--label": "Год начала обучения",
+                "yearOfStudyStart--placeholder": "Год начала обучения",
+                "departmentId--label": "Кафедра",
+                "departmentId--placeholder": "Кафедра",
+                "submit--text": "Добавить"
+            }
+        }
+    },
+    "pages.Administration.StudyGroups.ChangeStudyGroupModalButton": {
+        "change--success": "Учебная группа успешно изменена",
+        "change--error": "Не удалось изменить учебную группу",
+        "template": {
+            "show-button--text": "Изменить",
+            "Modal--title": "Изменение учебной группы",
+            "Form": {
+                "shortName--label": "Короткое название",
+                "shortName--placeholder": "Короткое название",
+                "fullName--label": "Полное название",
+                "fullName--placeholder": "Полное название",
+                "code--label": "Код",
+                "code--placeholder": "Код",
+                "groupNumber--label": "Номер группы",
+                "groupNumber--placeholder": "Номер группы",
+                "numberOfSemester--label": "Номер семестра",
+                "yearOfStudyStart--label": "Год начала обучения",
+                "yearOfStudyStart--placeholder": "Год начала обучения",
+                "departmentId--label": "Кафедра",
+                "departmentId--placeholder": "Кафедра",
+                "submit--text": "Изменить"
+            }
+        }
+    },
+    "pages.Administration.StudyGroups.index": {
+        "remove": {
+            "title": "Удаление",
+            "content": "Вы действительно хотите удалить учебные группы?",
+            "okText": "Да",
+            "cancelText": "Нет",
+            "onOk--success": "Учебные группы успешно удалёны",
+            "onOk--error": "Не удалось удалить учебные группы"
+        },
+        "updateSchedule--success": "Обновление расписания запущено",
+        "updateSchedule--error": "Не удалось запустить обновление расписания",
+        "columns": {
+            "shortName--title": "Короткое название",
+            "fullName--title": "Полное название",
+            "code--title": "Код",
+            "groupNumber--title": "Номер группы",
+            "numberOfSemester--title": "Номер семестра",
+            "yearOfStudyStart--title": "Год начала обучения",
+            "yearOfStudyStart--render--undefined": "Неизвестный год",
+            "yearOfStudyStart--render--text": "год",
+            "departmentId--title": "Кафедра",
+            "departmentId--render--empty": "Нет кафедры",
+            "departmentId--render--undefined": "Какая-то неправильная кафедра с id=",
+            "studentIds--title": "Студенты",
+            "subjectSemesters--title": "Семестры",
+            "subjectSemesters--render--empty": "Нет",
+            "actions--title": "Действия",
+            "actions--render--delete--text": "Удалить"
+        },
+        "template": {
+            "fast-search--placeholder": "Быстрый поиск",
+            "button-update-schedule--text": "Обновить расписание",
+            "button-delete-selected--text": "Удалить выбранные"
+        }
+    },
+    "pages.Administration.Subjects.AddSubjectModalButton": {
+        "add--success": "Предмет успешно добавлен",
+        "add--error": "Не удалось добавить предмет",
+        "template": {
+            "show-button--text": "Добавить",
+            "Modal--title": "Добавление нового предмета",
+            "Form": {
+                "name--label": "Название",
+                "name--placeholder": "Название",
+                "decryption--label": "Описание",
+                "decryption--placeholder": "Описание",
+                "departmentId--label": "Кафедра",
+                "departmentId--placeholder": "Кафедра",
+                "submit--text": "Добавить"
+            }
+        }
+    },
+    "pages.Administration.Subjects.ChangeSubjectModalButton": {
+        "change--success": "Предмет успешно изменён",
+        "change--error": "Не удалось изменить предмет",
+        "template": {
+            "show-button--text": "Изменить",
+            "Modal--title": "Изменение предмета",
+            "Form": {
+                "name--label": "Название",
+                "name--placeholder": "Название",
+                "decryption--label": "Описание",
+                "decryption--placeholder": "Описание",
+                "departmentId--label": "Кафедра",
+                "departmentId--placeholder": "Кафедра",
+                "submit--text": "Изменить"
+            }
+        }
+    },
+    "pages.Administration.Subjects.index": {
+        "remove": {
+            "title": "Удаление",
+            "content": "Вы действительно хотите удалить предметы?",
+            "okText": "Да",
+            "cancelText": "Нет",
+            "onOk--success": "Предметы успешно удалёны",
+            "onOk--error": "Не удалось удалить предметы"
+        },
+        "columns": {
+            "name--title": "Название",
+            "decryption--title": "Описание",
+            "departmentId--title": "Кафедра",
+            "departmentId--render--empty": "Нет",
+            "subjectSemesterIds--title": "Семестры предмета",
+            "subjectSemesterIds--render--empty": "Нет",
+            "subjectSemesterIds--render--semester": "семестр",
+            "questionIds--title": "Вопросы теста",
+            "actions--title": "Действия",
+            "actions--render--delete--text": "Удалить"
+        },
+        "template": {
+            "fast-search--placeholder": "Быстрый поиск",
+            "button-delete-selected--text": "Удалить выбранные"
+        }
+    },
+    "pages.Administration.SubjectSemesters.AddSubjectSemesterModalButton": {
+        "add--success": "Семестр успешно добавлен",
+        "add--error": "Не удалось добавить семестр",
+        "template": {
+            "show-button--text": "Добавить",
+            "Modal--title": "Добавление нового семестра",
+            "Form": {
+                "controlType--label": "Тип зачётности",
+                "hasCourseWork--label": "Есть курсовая работа",
+                "hasCourseProject--label": "Есть курсовой проект",
+                "subjectId--label": "Предмет",
+                "subjectId--placeholder": "Предмет",
+                "submit--text": "Добавить"
+            }
+        }
+    },
+    "pages.Administration.SubjectSemesters.ChangeSubjectSemesterModalButton": {
+        "change--success": "Семестр успешно изменён",
+        "change--error": "Не удалось изменить семестр",
+        "template": {
+            "show-button--text": "Изменить",
+            "Modal--title": "Изменение семестра",
+            "Form": {
+                "controlType--label": "Тип зачётности",
+                "hasCourseWork--label": "Есть курсовая работа",
+                "hasCourseProject--label": "Есть курсовой проект",
+                "subjectId--label": "Предмет",
+                "subjectId--placeholder": "Предмет",
+                "submit--text": "Изменить"
+            }
+        }
+    },
+    "pages.Administration.SubjectSemesters.index": {
+        "remove": {
+            "title": "Удаление",
+            "content": "Вы действительно хотите удалить семестры?",
+            "okText": "Да",
+            "cancelText": "Нет",
+            "onOk--success": "Семестры успешно удалёны",
+            "onOk--error": "Не удалось удалить семестры"
+        },
+        "columns": {
+            "studyGroupId--title": "Студенческая группа",
+            "studyGroupId--render--empty": "Нет студенческой группы",
+            "controlType--title": "Зачётность",
+            "controlType--render--undefined": "Что-то непонятное",
+            "subjectId--title": "Предмет",
+            "subjectId--render--empty": "Нет предмета",
+            "hasCourseWork--title": "Есть курсовая работа",
+            "hasCourseWork--render--yes": "Да",
+            "hasCourseWork--render--no": "Нет",
+            "hasCourseProject--title": "Есть курсовой проект",
+            "hasCourseProject--render--yes": "Да",
+            "hasCourseProject--render--no": "Нет",
+            "actions--title": "Действия",
+            "actions--render--delete--text": "Удалить"
+        },
+        "template": {
+            "fast-search--placeholder": "Быстрый поиск",
+            "button-delete-selected--text": "Удалить выбранные"
+        }
+    },
+    "pages.Administration.Users.AddUserModalButton": {
+        "add--success": "Пользователь успешно зарегистрирован",
+        "add--error": "Не удалось зарегистрировать пользователя",
+        "template": {
+            "show-button--text": "Добавить",
+            "Modal--title": "Регистрация нового пользователя",
+            "Form": {
+                "login--label": "Логин",
+                "login--placeholder": "Логин",
+                "password--label": "Пароль",
+                "password--placeholder": "Пароль",
+                "repeatedPassword--label": "Повторите пароль",
+                "repeatedPassword--placeholder": "Повторите пароль",
+                "email--label": "Электронная почта",
+                "email--placeholder": "Электронная почта",
+                "firstName--label": "Имя",
+                "firstName--placeholder": "Имя",
+                "lastName--label": "Фамилия",
+                "lastName--placeholder": "Фамилия",
+                "patronymic--label": "Отчество",
+                "patronymic--placeholder": "Отчество",
+                "phone--label": "Телефон",
+                "phone--placeholder": "Телефон",
+                "role--label": "Роль",
+                "role--placeholder": "Роль",
+                "studyGroupId--label": "Учебная группа",
+                "studyGroupId--placeholder": "Учебная группа",
+                "departmentId--label": "Кафедра",
+                "departmentId--placeholder": "Кафедра",
+                "submit--text": "Зарегистрировать"
+            }
+        }
+    },
+    "pages.Administration.Users.ChangeUserModalButton": {
+        "change--success": "Пользователь успешно изменён",
+        "change--error": "Не удалось изменить пользователя",
+        "template": {
+            "show-button--text": "Изменить",
+            "Modal--title": "Изменение пользователя",
+            "Form": {
+                "login--label": "Логин",
+                "login--placeholder": "Логин",
+                "email--label": "Электронная почта",
+                "email--placeholder": "Электронная почта",
+                "firstName--label": "Имя",
+                "firstName--placeholder": "Имя",
+                "lastName--label": "Фамилия",
+                "lastName--placeholder": "Фамилия",
+                "patronymic--label": "Отчество",
+                "patronymic--placeholder": "Отчество",
+                "phone--label": "Телефон",
+                "phone--placeholder": "Телефон",
+                "role--label": "Роль",
+                "role--placeholder": "Роль",
+                "studyGroupId--label": "Учебная группа",
+                "studyGroupId--placeholder": "Учебная группа",
+                "departmentId--label": "Кафедра",
+                "departmentId--placeholder": "Кафедра",
+                "submit--text": "Изменить"
+            }
+        }
+    },
+    "pages.Administration.Users.index": {
+        "remove": {
+            "title": "Удаление",
+            "content": "Вы действительно хотите удалить пользователей?",
+            "okText": "Да",
+            "cancelText": "Нет",
+            "onOk--success": "Пользователи успешно удалёны",
+            "onOk--error": "Не удалось удалить пользователей"
+        },
+        "columns": {
+            "login--title": "Логин",
+            "email--title": "Email",
+            "firstName--title": "Имя",
+            "lastName--title": "Фамилия",
+            "patronymic--title": "Отчество",
+            "phone--title": "Телефон",
+            "role--title": "Роль",
+            "role--render--undefined": "Какая-то неизвестная роль",
+            "affiliation--title": "Принадлежность",
+            "affiliation--render--text--studyGroup": "Учебная группа",
+            "affiliation--render--text--department": "Кафедра",
+            "affiliation--render--empty": "Нет",
+            "actions--title": "Действия",
+            "actions--render--delete--text": "Удалить"
+        },
+        "template": {
+            "fast-search--placeholder": "Быстрый поиск",
+            "button-delete-selected--text": "Удалить выбранные"
+        }
+    },
+    "pages.Administration.index": {
+        "title": "АДминистрирование",
+        "tabNames": {
+            "Users": "Пользователи",
+            "StudyGroups": "Учебные группы",
+            "SubjectSemesters": "Семестры",
+            "Subjects": "Предметы",
+            "Departments": "Кафедры",
+            "Faculties": "Факультеты"
+        }
+    },
+    "pages.Profile.ChangePasswordModal": {
+        "changePassword--success": "Пароль успешно изменён",
+        "changePassword--error": "Не удалось изменить пароль",
+        "template": {
+            "show-button--text": "Изменить пароль",
+            "Modal--title": "Изменение пароля",
+            "Form": {
+                "newPassword--label": "Новый пароль",
+                "newPassword--placeholder": "Новый пароль",
+                "repeatedNewPassword--label": "Повторите новый пароль",
+                "repeatedNewPassword--placeholder": "Повторите новый пароль",
+                "submit--text": "Изменить"
+            }
+        }
+    },
+    "pages.Profile.GroupList": {
+        "GroupList": {
+            "useOnce--get-studyGroup-teaching--error": "Не удалось получить список групп",
+            "template": {
+                "no-studyGroups": "Нет студенческих групп",
+                "Collapse--header": "Список групп"
+            }
+        },
+        "GroupTable": {
+            "useOnce--get-user-by-ids--error": "Не удалось получить список пользователей",
+            "columns": {
+                "firstName--title": "Имя",
+                "lastName--title": "Фамилия",
+                "patronymic--title": "Отчество",
+                "login--title": "Логин",
+                "email--title": "Электронная почта",
+                "phone--title": "Телефон"
+            }
+        }
+    },
+    "pages.Profile.Profile": {
+        "change--success": "Данные успешно изменены",
+        "change--error": "Ошибка при изменении данных пользователя",
+        "uploadAvatar--error-type": "Вы можете загружать только файлы JPG/PNG",
+        "uploadAvatar--error-size": "Изображение должно быть меньше 2 МБ",
+        "uploadAvatar--success": "Аватар обновлён",
+        "uploadAvatar--error--response": "Не удалось обновить аватар",
+        "avatarImageComponent--upload-text": "Загрузить",
+        "template": {
+            "title": "Прекрасный профиль",
+            "text--personal-data": "Личные данные",
+            "text--lastName": "Фамилия",
+            "text--firstName": "Имя",
+            "text--patronymic": "Отчество",
+            "text--role": "Роль",
+            "text--department": "Кафедра",
+            "text--studyGroup": "Группа",
+            "text--authorization-data": "Данные авторизации",
+            "Form": {
+                "login--label": "Логин",
+                "login--placeholder": "Логин",
+                "email--label": "Электронная почта",
+                "email--placeholder": "Электронная почта",
+                "phone--label": "Телефон",
+                "phone--placeholder": "Телефон",
+                "password--label": "Пароль",
+                "submit--text": "Изменить"
+            },
+            "text--additional-contacts": "Дополнительные контакты"
+        }
+    },
+    "pages.Profile.index": {
+        "tabs--profile": "Личная информация",
+        "tabs--settings": "Настройки",
+        "tabs--group-list": "Список групп"
+    },
+    "pages.Profile.Contacts": {
+        "getContacts--error": "Не удалось получить контакты пользователя",
+        "add--success": "Контакт добавлен",
+        "add--error": "Не удалось добавить контакт",
+        "remove--success": "Контакт удалён",
+        "remove--error": "Не удалось удалить контакт",
+        "template": {
+            "show-button--text": "Дополнительные контакты",
+            "Modal--title": "Дополнительные контакты",
+            "available-contacts-title": "Имеющиеся контакты",
+            "contact--Tooltip--title": "Скопировать",
+            "contact--Tooltip--clipboardCopy--success": "Скопировано",
+            "form-title": "Добавление",
+            "Form": {
+                "type--label": "Куда контакт",
+                "value--label": "Идентификатор",
+                "value--placeholder": "Идентификатор",
+                "submit--text": "Добавить"
+            }
+        }
+    },
+    "pages.Profile.Settings": {
+        "template": {
+            "text--Theme": "Тема",
+            "text--Language": "Язык",
+            "text--main-page": "Главная страница для тебя"
+        }
+    },
+    "pages.Schedule.Schedule": {
+        "searchByTranslation--groups": "Группа",
+        "searchByTranslation--teachers": "Учитель",
+        "searchGroupSchedule--error": "Ошибка при поиске расписания группы",
+        "searchTeacherSchedule--error": "Ошибка при поиске расписания преподавателя",
+        "useOnce--get-schedule-list--error": "Не удалось получить список групп",
+        "useOnce--get-teacher-list--error": "Не удалось получить список преподавателей",
+        "useEffect--get-studyGroup-by-ids": "Не удалось получить группу пользователя",
+        "template": {
+            "title": "Строгое расписание",
+            "searchForm--groups--label": "Название группы",
+            "searchForm--teachers--label": "Преподаватель",
+            "searchBy--label": "Поиск по",
+            "searchBy--groups--text": "Названию группы",
+            "searchBy--teachers--text": "Учителю",
+            "week--1--text": "1-ая неделя",
+            "week--2--text": "2-ая неделя",
+            "Spin--tip": "Расписание загружается, пожалуйста, подождите..."
+        }
+    },
+    "pages.Schedule.SchedulePair": {
+        "subjectTypes--1": "Практика",
+        "subjectTypes--2": "Лекция",
+        "subjectTypes--3": "Лабораторная",
+        "subjectTypes--undefined": "Неизвестно"
+    },
+    "pages.Schedule.ScheduleTable": {
+        "dayNames-monday": "Пн",
+        "dayNames-tuesday": "Вт",
+        "dayNames-wednesday": "Ср",
+        "dayNames-thursday": "Чт",
+        "dayNames-friday": "Пт",
+        "dayNames-saturday": "Сб",
+        "dayNames-sunday": "Вс"
+    },
+    "utils.formRules": {
+        "required": {
+            "firstName": "Имя обязательно",
+            "lastName": "Фамилия обязательна",
+            "patronymic": "Отчество обязательно",
+            "login": "Логин обязателен",
+            "password": "Пароль обязателен",
+            "email": "Электронная почта обязательна",
+            "shortName": "Короткое название обязательно",
+            "fullName": "Полное название обязательно",
+            "code": "Код обязателен",
+            "groupNumber": "Номер группы обязателен",
+            "numberOfSemester": "Номер семестра обязателен",
+            "yearOfStudyStart": "Год начала обучения обязателен",
+            "departmentId": "Кафедра обязательна",
+            "name": "Название обязательно",
+            "decryption": "Описание обязательно",
+            "controlType": "Зачётность обязательна",
+            "studyGroupId": "Номер группы обязателен",
+            "studyGroupIds": "Номера групп обязательны",
+            "phone": "Телефон обязателен",
+            "type": "Тип обязателен"
+        },
+        "valid": {
+            "email": "Неправильная электронная почта"
+        },
+        "maxLength": {
+            "standard": "Длина строки не может быть больше 255 символов"
+        },
+        "equalCheck": {
+            "repeatedPassword": "Пароли должны сопадать"
+        }
+    }
+}

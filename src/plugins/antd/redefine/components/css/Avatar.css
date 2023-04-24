@@ -1,0 +1,7 @@
+.ant-avatar {
+  color: var(--text-light-5);
+  background: var(--text-light-2);
+}
+.ant-avatar-group .ant-avatar {
+  border: 1px solid var(--text-light-5);
+}

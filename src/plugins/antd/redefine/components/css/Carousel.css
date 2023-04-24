@@ -1,0 +1,9 @@
+.ant-carousel {
+  color: var(--text-dark-4);
+}
+.ant-carousel .slick-dots li button {
+  background: var(--text-light-5);
+}
+.ant-carousel .slick-dots li.slick-active button {
+  background: var(--text-light-5);
+}

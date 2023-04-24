@@ -1,0 +1,182 @@
+:root {
+    --primary-base: rgb(165, 99, 0);
+    --primary-light-1: rgb(145, 69, 0);
+    --primary-light-2: rgb(99, 34, 0);
+    --primary-light-3: rgb(49, 14, 0);
+    --primary-light-transparent: rgba(55, 38, 0, 0.15);
+    --primary-dark-1: rgb(186, 153, 8);
+    --primary-dark-2: rgb(222, 170, 38);
+    --primary-dark-3: rgb(252, 182, 78);
+    --primary-dark-transparent: rgba(231, 111, 0, 0.15);
+
+
+    --text-base: rgb(217, 217, 217);
+    --text-light-1: rgb(89, 83, 65);
+    --text-light-2: rgb(58, 48, 43);
+    --text-light-3: rgb(38, 21, 15);
+    --text-light-4: rgb(13, 8, 0);
+    --text-light-5: rgb(0, 0, 0);
+    --text-light-transparent-1: rgba(0, 0, 0, 0.65);
+    --text-light-transparent-2: rgba(0, 0, 0, 0.85);
+    --text-dark-1: rgb(145, 144, 143);
+    --text-dark-2: rgb(167, 173, 151);
+    --text-dark-3: rgb(204, 198, 174);
+    --text-dark-4: rgb(240, 234, 217);
+    --text-dark-5: rgb(255, 255, 255);
+    --text-dark-transparent-1: rgba(0, 0, 0, 0.35);
+    --text-dark-transparent-2: rgba(0, 0, 0, 0.15);
+
+
+    --success-base: rgb(126, 54, 207);
+    --success-light-1: rgb(115, 45, 165);
+    --success-light-2: rgb(96, 26, 117);
+    --success-light-3: rgb(25, 11, 43);
+    --success-dark-1: rgb(177, 49, 194);
+    --success-dark-2: rgb(204, 41, 96);
+    --success-dark-3: rgb(234, 89, 138);
+
+
+    --info-base: rgb(175, 109, 15);
+    --info-light-1: rgb(155, 79, 10);
+    --info-light-2: rgb(109, 44, 5);
+    --info-light-3: rgb(59, 24, 0);
+    --info-dark-1: rgb(196, 163, 38);
+    --info-dark-2: rgb(232, 180, 88);
+    --info-dark-3: rgb(255, 192, 148);
+
+
+    --warning-base: rgb(5, 85, 205);
+    --warning-light-1: rgb(5, 45, 185);
+    --warning-light-2: rgb(5, 33, 125);
+    --warning-light-3: rgb(1, 17, 45);
+    --warning-dark-1: rgb(10, 121, 215);
+    --warning-dark-2: rgb(15, 151, 235);
+    --warning-dark-3: rgb(35, 181, 245);
+
+
+    --error-base: rgb(5, 179, 138);
+    --error-light-1: rgb(0, 151, 102);
+    --error-light-2: rgb(0, 101, 67);
+    --error-light-3: rgb(0, 51, 17);
+    --error-dark-1: rgb(20, 195, 154);
+    --error-dark-2: rgb(40, 215, 180);
+    --error-dark-3: rgb(65, 240, 215);
+    
+
+    --shadow-base: rgba(255, 255, 255, 0.15);
+    --shadow-light-1: rgba(255, 255, 255, 0.12);
+    --shadow-light-2: rgba(255, 255, 255, 0.09);
+    --shadow-light-3: rgba(255, 255, 255, 0.06);
+    --shadow-light-4: rgba(255, 255, 255, 0.03);
+    --shadow-light-5: rgba(255, 255, 255, 0.01);
+    --shadow-dark-1: rgba(255, 255, 255, 0.25);
+    --shadow-dark-2: rgba(255, 255, 255, 0.45);
+    --shadow-dark-3: rgba(255, 255, 255, 0.6);
+    --shadow-dark-4: rgba(255, 255, 255, 0.75);
+    --shadow-dark-5: rgba(255, 255, 255, 0.85);
+
+
+    --green-base: rgb(127, 40, 154);
+    --green-light-1: rgb(96, 26, 117);
+    --green-light-2: rgb(25, 11, 43);
+    --green-light--transparent: rgba(70, 0, 100, 0.5);
+    --green-dark-1: rgb(177, 49, 194);
+    --green-dark-2: rgb(199, 97, 242);
+    --green-dark--transparent: rgba(205, 55, 230, 0.5);
+
+    --gold-base: rgb(5, 44, 170);
+    --gold-light-1: rgb(5, 33, 125);
+    --gold-light-2: rgb(1, 17, 45);
+    --gold-light-transparent2: rgba(10, 30, 65, 0.5);
+    --gold-dark-1: rgb(5, 65, 214);
+    --gold-dark-2: rgb(43, 119, 249);
+    --gold-dark-transparent: rgba(55, 130, 255, 0.5);
+
+    --cyan-base: rgb(170, 44, 48);
+    --cyan-light-1: rgb(120, 23, 33);
+    --cyan-light-2: rgb(25, 0, 4);
+    --cyan-light-transparent: rgba(45, 10, 15, 0.5);
+    --cyan-dark-1: rgb(236, 61, 61);
+    --cyan-dark-2: rgb(247, 104, 99);
+    --cyan-dark-transparent: rgba(245, 105, 90, 0.5);
+
+    --blue-base: rgb(135, 75, 3);
+    --blue-light-1: rgb(109, 44, 5);
+    --blue-light-2: rgb(59, 24, 0);
+    --blue-light-transparent: rgba(70, 35, 0, 0.5);
+    --blue-dark-1: rgb(165, 99, 0);
+    --blue-dark-2: rgb(200, 149, 30);
+    --blue-dark-transparent: rgba(200, 145, 30, 0.5);
+
+    --geekblue-base: rgb(82, 110, 10);
+    --geekblue-light-1: rgb(82, 57, 0);
+    --geekblue-light-2: rgb(15, 10, 0);
+    --geekblue-light-transparent: rgba(35, 30, 10, 0.5);
+    --geekblue-dark-1: rgb(208, 171, 20);
+    --geekblue-dark-2: rgb(226, 198, 59);
+    --geekblue-dark-transparent: rgba(225, 195, 55, 0.5);
+
+    --purple-base: rgb(90, 144, 27);
+    --purple-light-1: rgb(44, 82, 8);
+    --purple-light-2: rgb(6, 15, 0);
+    --purple-light-transparent: rgba(40, 55, 20, 0.5);
+    --purple-dark-1: rgb(141, 209, 46);
+    --purple-dark-2: rgb(172, 226, 84);
+    --purple-dark-transparent: rgba(180, 225, 80, 0.5);
+
+    --lime-base: rgb(58, 18, 178);
+    --lime-light-1: rgb(21, 0, 112);
+    --lime-light-2: rgb(3, 0, 25);
+    --lime-light-transparent: rgba(23, 20, 45, 0.5);
+    --lime-dark-1: rgb(95, 38, 238);
+    --lime-dark-2: rgb(131, 76, 250);
+    --lime-dark-transparent: rgba(161, 96, 252, 0.5);
+
+    --pink-base: rgb(10, 144, 75);
+    --pink-light-1: rgb(0, 82, 45);
+    --pink-light-2: rgb(0, 15, 9);
+    --pink-light-transparent: rgba(25, 75, 59, 0.5);
+    --pink-dark-1: rgb(20, 208, 105);
+    --pink-dark-2: rgb(59, 226, 128);
+    --pink-dark-transparent: rgba(99, 230, 138, 0.5);
+
+    --magenta-base: rgb(50, 165, 50);
+    --magenta-light-1: rgb(30, 125, 30);
+    --magenta-light-2: rgb(0, 55, 0);
+    --magenta-light-transparent: rgba(30, 75, 30, 0.5);
+    --magenta-dark-1: rgb(70, 205, 70);
+    --magenta-dark-2: rgb(116, 245, 116);
+    --magenta-dark-transparent: rgba(100, 185, 100, 0.5);
+
+    --red-base: rgb(2, 165, 150);
+    --red-light-1: rgb(0, 92, 97);
+    --red-light-2: rgb(0, 14, 15);
+    --red-light-transparent: rgba(0, 85, 70, 0.5);
+    --red-dark-1: rgb(10, 221, 210);
+    --red-dark-2: rgb(48, 236, 221);
+    --red-dark-transparent: rgba(55, 245, 245, 0.5);
+
+    --yellow-base: rgb(2, 20, 173);
+    --yellow-light-1: rgb(0, 4, 112);
+    --yellow-light-2: rgb(1, 17, 45);
+    --yellow-light-transparent: rgba(10, 15, 105, 0.5);
+    --yellow-dark-1: rgb(5, 36, 235);
+    --yellow-dark-2: rgb(43, 78, 249);
+    --yellow-dark-transparent: rgba(45, 75, 255, 0.5);
+
+    --volcano-base: rgb(2, 119, 166);
+    --volcano-light-1: rgb(0, 68, 105);
+    --volcano-light-2: rgb(0, 13, 23);
+    --volcano-light-transparent: rgba(0, 153, 173, 0.5);
+    --volcano-dark-1: rgb(5, 171, 227);
+    --volcano-dark-2: rgb(43, 199, 242);
+    --volcano-dark-transparent: rgba(73, 195, 235, 0.5);
+
+    --orange-base: rgb(2, 80, 156);
+    --orange-light-1: rgb(0, 42, 110);
+    --orange-light-2: rgb(0, 8, 25);
+    --orange-light-transparent: rgba(0, 55, 105, 0.5);
+    --orange-dark-1: rgb(5, 115, 233);
+    --orange-dark-2: rgb(43, 148, 247);
+    --orange-dark-transparent: rgba(55, 155, 245, 0.5);
+}

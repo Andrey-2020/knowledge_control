@@ -1,0 +1,12 @@
+.no-anchor-ink {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+
+    .ant-anchor {
+        padding-left: 0 !important;
+
+        .ant-anchor-ink {
+            display: none !important;
+        }
+    }
+}

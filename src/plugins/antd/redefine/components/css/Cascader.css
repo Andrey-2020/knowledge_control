@@ -1,0 +1,68 @@
+.ant-cascader {
+  color: var(--text-dark-4);
+}
+.ant-cascader-picker {
+  color: var(--text-dark-4);
+  background-color: var(--text-light-5);
+}
+.ant-cascader-picker-disabled {
+  color: var(--text-light-2);
+  background: var(--text-light-4);
+}
+.ant-cascader-picker:focus .ant-cascader-input {
+  border-color: var(--primary-dark-1);
+  box-shadow: 0 0 0 2px var(--primary-dark-transparent);
+}
+.ant-cascader-picker-show-search.ant-cascader-picker-focused {
+  color: var(--text-light-2);
+}
+.ant-cascader-picker-clear {
+  color: var(--text-light-2);
+  background: var(--text-light-5);
+}
+.ant-cascader-picker-clear:hover {
+  color: var(--text-dark-1);
+}
+.ant-cascader-picker-arrow {
+  color: var(--text-light-2);
+}
+.ant-cascader-picker-label:hover + .ant-cascader-input:not(.ant-cascader-picker-disabled .ant-cascader-picker-label:hover + .ant-cascader-input) {
+  border-color: var(--primary-dark-1);
+}
+.ant-cascader-menus {
+  background: var(--text-light-5);
+  box-shadow:
+    0 3px 6px -4px var(--shadow-light-1),
+    0 6px 16px 0 var(--shadow-light-2),
+    0 9px 28px 8px var(--shadow-light-3);
+}
+.ant-cascader-menu {
+  border-right: 1px solid var(--text-light-4);
+}
+.ant-cascader-menu-item:hover {
+  background: var(--text-light-4);
+}
+.ant-cascader-menu-item-disabled {
+  color: var(--text-light-2);
+}
+.ant-cascader-menu-empty .ant-cascader-menu-item {
+  color: var(--text-light-2);
+}
+.ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled),
+.ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled):hover {
+  background-color: var(--info-light-3);
+}
+.ant-cascader-menu-item-expand .ant-cascader-menu-item-expand-icon,
+.ant-cascader-menu-item-loading-icon {
+  color: var(--text-dark-1);
+}
+.ant-cascader-menu-item-disabled.ant-cascader-menu-item-expand .ant-cascader-menu-item-expand-icon,
+.ant-cascader-menu-item-disabled.ant-cascader-menu-item-loading-icon {
+  color: var(--text-light-2);
+}
+.ant-cascader-menu-item .ant-cascader-menu-item-keyword {
+  color: var(--error-base);
+}
+.ant-cascader-menu-rtl .ant-cascader-menu {
+  border-left: 1px solid var(--text-light-4);
+}

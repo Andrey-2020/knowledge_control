@@ -1,0 +1,79 @@
+.ant-card {
+  color: var(--text-dark-4);
+  background: var(--text-light-5);
+}
+.ant-card-hoverable:hover {
+  box-shadow:
+    0 1px 2px -2px var(--shadow-base),
+    0 3px 6px 0 var(--shadow-light-1),
+    0 5px 12px 4px var(--shadow-light-2);
+}
+.ant-card-bordered {
+  border: 1px solid var(--text-light-4);
+}
+.ant-card-head {
+  color: var(--text-dark-4);
+  border-bottom: 1px solid var(--text-light-4);
+}
+.ant-card-head .ant-tabs {
+  color: var(--text-dark-4);
+}
+.ant-card-head .ant-tabs-bar {
+  border-bottom: 1px solid var(--text-light-4);
+}
+.ant-card-extra {
+  color: var(--text-dark-4);
+}
+.ant-card-grid {
+  box-shadow:
+    1px 0 0 0 var(--text-light-4),
+    0 1px 0 0 var(--text-light-4),
+    1px 1px 0 0 var(--text-light-4),
+    1px 0 0 0 var(--text-light-4) inset,
+    0 1px 0 0 var(--text-light-4) inset;
+}
+.ant-card-grid-hoverable:hover {
+  box-shadow:
+    0 1px 2px -2px var(--shadow-base),
+    0 3px 6px 0 var(--shadow-light-1),
+    0 5px 12px 4px var(--shadow-light-2);
+}
+.ant-card-actions {
+  background: var(--text-light-5);
+  border-top: 1px solid var(--text-light-4);
+}
+.ant-card-actions > li {
+  color: var(--text-dark-1);
+}
+.ant-card-actions > li > span:hover {
+  color: var(--primary-base);
+}
+.ant-card-actions > li > span a:not(.ant-btn),
+.ant-card-actions > li > span > .anticon {
+  color: var(--text-dark-1);
+}
+.ant-card-actions > li > span a:not(.ant-btn):hover,
+.ant-card-actions > li > span > .anticon:hover {
+  color: var(--primary-base);
+}
+.ant-card-actions > li:not(:last-child) {
+  border-right: 1px solid var(--text-light-4);
+}
+.ant-card-rtl .ant-card-actions > li:not(:last-child) {
+  border-left: 1px solid var(--text-light-4);
+}
+.ant-card-type-inner .ant-card-head {
+  background: var(--text-light-5);
+}
+.ant-card-meta-title {
+  color: var(--text-dark-4);
+}
+.ant-card-meta-description {
+  color: var(--text-dark-1);
+}
+.ant-card-loading-block {
+  background: linear-gradient(90deg,
+    var(--text-dark-transparent-2),
+    var(--text-dark-transparent-1),
+    var(--text-dark-transparent-2));
+}

@@ -1,0 +1,112 @@
+.ant-tooltip {
+  color: var(--text-dark-4);
+}
+.ant-tooltip-inner {
+  color: var(--text-light-5);
+  background-color: var(--shadow-dark-4);
+  box-shadow:
+    0 3px 6px -4px var(--shadow-light-1),
+    0 6px 16px 0 var(--shadow-light-2),
+    0 9px 28px 8px var(--shadow-light-3);
+}
+.ant-tooltip-arrow-content {
+  background-color: var(--shadow-dark-4);
+}
+.ant-tooltip-placement-top .ant-tooltip-arrow-content,
+.ant-tooltip-placement-topLeft .ant-tooltip-arrow-content,
+.ant-tooltip-placement-topRight .ant-tooltip-arrow-content {
+  box-shadow: 3px 3px 7px var(--shadow-light-3);
+}
+.ant-tooltip-placement-right .ant-tooltip-arrow-content,
+.ant-tooltip-placement-rightTop .ant-tooltip-arrow-content,
+.ant-tooltip-placement-rightBottom .ant-tooltip-arrow-content {
+  box-shadow: -3px 3px 7px var(--shadow-light-3);
+}
+.ant-tooltip-placement-left .ant-tooltip-arrow-content,
+.ant-tooltip-placement-leftTop .ant-tooltip-arrow-content,
+.ant-tooltip-placement-leftBottom .ant-tooltip-arrow-content {
+  box-shadow: 3px -3px 7px var(--shadow-light-3);
+}
+.ant-tooltip-placement-bottom .ant-tooltip-arrow-content,
+.ant-tooltip-placement-bottomLeft .ant-tooltip-arrow-content,
+.ant-tooltip-placement-bottomRight .ant-tooltip-arrow-content {
+  box-shadow: -3px -3px 7px var(--shadow-light-3);
+}
+.ant-tooltip-pink .ant-tooltip-inner {
+  background-color: var(--pink-dark-1);
+}
+.ant-tooltip-pink .ant-tooltip-arrow-content {
+  background-color: var(--pink-dark-1);
+}
+.ant-tooltip-magenta .ant-tooltip-inner {
+  background-color: var(--magenta-dark-1);
+}
+.ant-tooltip-magenta .ant-tooltip-arrow-content {
+  background-color: var(--magenta-dark-1);
+}
+.ant-tooltip-red .ant-tooltip-inner {
+  background-color: var(--red-dark-1);
+}
+.ant-tooltip-red .ant-tooltip-arrow-content {
+  background-color: var(--red-dark-1);
+}
+.ant-tooltip-volcano .ant-tooltip-inner {
+  background-color: var(--volcano-dark-1);
+}
+.ant-tooltip-volcano .ant-tooltip-arrow-content {
+  background-color: var(--volcano-dark-1);
+}
+.ant-tooltip-orange .ant-tooltip-inner {
+  background-color: var(--orange-dark-1);
+}
+.ant-tooltip-orange .ant-tooltip-arrow-content {
+  background-color: var(--orange-dark-1);
+}
+.ant-tooltip-yellow .ant-tooltip-inner {
+  background-color: var(--yellow-dark-1);
+}
+.ant-tooltip-yellow .ant-tooltip-arrow-content {
+  background-color: var(--yellow-dark-1);
+}
+.ant-tooltip-gold .ant-tooltip-inner {
+  background-color: var(--gold-dark-1);
+}
+.ant-tooltip-gold .ant-tooltip-arrow-content {
+  background-color: var(--gold-dark-1);
+}
+.ant-tooltip-cyan .ant-tooltip-inner {
+  background-color: var(--cyan-dark-1);
+}
+.ant-tooltip-cyan .ant-tooltip-arrow-content {
+  background-color: var(--cyan-dark-1);
+}
+.ant-tooltip-lime .ant-tooltip-inner {
+  background-color: var(--lime-dark-1);
+}
+.ant-tooltip-lime .ant-tooltip-arrow-content {
+  background-color: var(--lime-dark-1);
+}
+.ant-tooltip-green .ant-tooltip-inner {
+  background-color: var(--green-dark-1);
+}
+.ant-tooltip-green .ant-tooltip-arrow-content {
+  background-color: var(--green-dark-1);
+}
+.ant-tooltip-blue .ant-tooltip-inner {
+  background-color: var(--blue-dark-1);
+}
+.ant-tooltip-blue .ant-tooltip-arrow-content {
+  background-color: var(--blue-dark-1);
+}
+.ant-tooltip-geekblue .ant-tooltip-inner {
+  background-color: var(--geekblue-dark-1);
+}
+.ant-tooltip-geekblue .ant-tooltip-arrow-content {
+  background-color: var(--geekblue-dark-1);
+}
+.ant-tooltip-purple .ant-tooltip-inner {
+  background-color: var(--purple-dark-1);
+}
+.ant-tooltip-purple .ant-tooltip-arrow-content {
+  background-color: var(--purple-dark-1);
+}

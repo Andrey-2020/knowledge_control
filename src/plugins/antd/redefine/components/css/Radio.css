@@ -1,0 +1,135 @@
+.ant-radio-group {
+  color: var(--text-dark-4);
+}
+.ant-radio-wrapper {
+  color: var(--text-dark-4);
+}
+.ant-radio {
+  color: var(--text-dark-4);
+}
+.ant-radio-wrapper:hover .ant-radio,
+.ant-radio:hover .ant-radio-inner,
+.ant-radio-input:focus + .ant-radio-inner {
+  border-color: var(--primary-base);
+}
+.ant-radio-input:focus + .ant-radio-inner {
+  box-shadow: 0 0 0 3px var(--primary-dark-transparent);
+}
+.ant-radio-checked::after {
+  border: 1px solid var(--primary-base);
+}
+.ant-radio-inner {
+  background-color: var(--text-light-5);
+  border-color: var(--text-light-2);
+}
+.ant-radio-inner::after {
+  background-color: var(--primary-base);
+}
+.ant-radio-checked .ant-radio-inner {
+  border-color: var(--primary-base);
+}
+.ant-radio-disabled .ant-radio-inner {
+  background-color: var(--text-light-4);
+  border-color: var(--text-light-2) !important;
+}
+.ant-radio-disabled .ant-radio-inner::after {
+  background-color: var(--shadow-dark-1);
+}
+.ant-radio-disabled + span {
+  color: var(--text-light-2);
+}
+.ant-radio-button-wrapper {
+  color: var(--text-dark-4);
+  background: var(--text-light-5);
+  border: 1px solid var(--text-light-2);
+}
+.ant-radio-button-wrapper a {
+  color: var(--text-dark-4);
+}
+.ant-radio-button-wrapper:not(:first-child)::before {
+  background-color: var(--text-light-2);
+}
+.ant-radio-button-wrapper:first-child {
+  border-left: 1px solid var(--text-light-2);
+}
+.ant-radio-button-wrapper:hover {
+  color: var(--primary-base);
+}
+.ant-radio-button-wrapper:focus-within {
+  box-shadow: 0 0 0 3px var(--primary-dark-transparent);
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  color: var(--primary-base);
+  background: var(--text-light-5);
+  border-color: var(--primary-base);
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+  background-color: var(--primary-base);
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child {
+  border-color: var(--primary-base);
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  color: var(--primary-dark-1);
+  border-color: var(--primary-dark-1);
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover::before {
+  background-color: var(--primary-dark-1);
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):active {
+  color: var(--primary-dark-2);
+  border-color: var(--primary-dark-2);
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):active::before {
+  background-color: var(--primary-dark-2);
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):focus-within {
+  box-shadow: 0 0 0 3px var(--primary-dark-transparent);
+}
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  color: var(--text-light-5);
+  background: var(--primary-base);
+  border-color: var(--primary-base);
+}
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  color: var(--text-light-5);
+  background: var(--primary-dark-1);
+  border-color: var(--primary-dark-1);
+}
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):active {
+  color: var(--text-light-5);
+  background: var(--primary-dark-2);
+  border-color: var(--primary-dark-2);
+}
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):focus-within {
+  box-shadow: 0 0 0 3px var(--primary-dark-transparent);
+}
+.ant-radio-button-wrapper-disabled {
+  color: var(--text-light-2);
+  background-color: var(--text-light-4);
+  border-color: var(--text-light-2);
+}
+.ant-radio-button-wrapper-disabled:first-child,
+.ant-radio-button-wrapper-disabled:hover {
+  color: var(--text-light-2);
+  background-color: var(--text-light-4);
+  border-color: var(--text-light-2);
+}
+.ant-radio-button-wrapper-disabled:first-child {
+  border-left-color: var(--text-light-2);
+}
+.ant-radio-button-wrapper-disabled.ant-radio-button-wrapper-checked {
+  color: var(--text-light-2);
+  background-color: var(--text-light-3);
+  border-color: var(--text-light-2);
+  box-shadow: none;
+}
+.ant-radio-button-wrapper.ant-radio-button-wrapper-rtl.ant-radio-button-wrapper:first-child {
+  border-right: 1px solid var(--text-light-2);
+}
+.ant-radio-button-wrapper-checked:not([class*=' ant-radio-button-wrapper-disabled']).ant-radio-button-wrapper:first-child {
+  border-right-color: var(--primary-dark-1);
+}
+.ant-radio-button-wrapper.ant-radio-button-wrapper-rtl.ant-radio-button-wrapper-disabled:first-child {
+  border-right-color: var(--text-light-2);
+}

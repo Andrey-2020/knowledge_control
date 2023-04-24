@@ -1,0 +1,26 @@
+.ant-image-img-placeholder {
+  background-color: var(--text-light-4);
+}
+.ant-image-mask {
+  color: var(--text-light-5);
+  background: var(--shadow-dark-2);
+}
+.ant-image-preview-mask {
+  background-color: var(--shadow-dark-2);
+}
+.ant-image-preview-operations {
+  color: var(--text-light-transparent-2);
+  background: var(--shadow-light-2);
+}
+.ant-image-preview-operations-operation-disabled {
+  color: var(--text-dark-transparent-2);
+}
+.ant-image-preview-switch-left,
+.ant-image-preview-switch-right {
+  color: var(--text-light-transparent-2);
+  background: var(--shadow-light-2);
+}
+.ant-image-preview-switch-left-disabled,
+.ant-image-preview-switch-right-disabled {
+  color: var(--text-dark-transparent-2);
+}

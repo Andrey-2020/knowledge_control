@@ -1,0 +1,59 @@
+.ant-skeleton-header .ant-skeleton-avatar {
+  background: var(--shadow-light-3);
+}
+.ant-skeleton-content .ant-skeleton-title {
+  background: var(--shadow-light-3);
+}
+.ant-skeleton-content .ant-skeleton-paragraph > li {
+  background: var(--shadow-light-3);
+}
+.ant-skeleton.ant-skeleton-active .ant-skeleton-content .ant-skeleton-title,
+.ant-skeleton.ant-skeleton-active .ant-skeleton-content .ant-skeleton-paragraph > li {
+  background: linear-gradient(90deg,
+    var(--shadow-light-3) 25%,
+    var(--shadow-light-1) 37%,
+    var(--shadow-light-3) 63%
+  );
+}
+.ant-skeleton.ant-skeleton-active .ant-skeleton-avatar {
+  background: linear-gradient(90deg,
+    var(--shadow-light-3) 25%,
+    var(--shadow-light-1) 37%,
+    var(--shadow-light-3) 63%
+  );
+}
+.ant-skeleton.ant-skeleton-active .ant-skeleton-button {
+  background: linear-gradient(90deg,
+    var(--shadow-light-3) 25%,
+    var(--shadow-light-1) 37%,
+    var(--shadow-light-3) 63%
+  );
+}
+.ant-skeleton.ant-skeleton-active .ant-skeleton-input {
+  background: linear-gradient(90deg,
+    var(--shadow-light-3) 25%,
+    var(--shadow-light-1) 37%,
+    var(--shadow-light-3) 63%);
+}
+.ant-skeleton.ant-skeleton-active .ant-skeleton-image {
+  background: linear-gradient(90deg,
+    var(--shadow-light-3) 25%,
+    var(--shadow-light-1) 37%,
+    var(--shadow-light-3) 63%
+  );
+}
+.ant-skeleton-element .ant-skeleton-button {
+  background: var(--shadow-light-3);
+}
+.ant-skeleton-element .ant-skeleton-avatar {
+  background: var(--shadow-light-3);
+}
+.ant-skeleton-element .ant-skeleton-input {
+  background: var(--shadow-light-3);
+}
+.ant-skeleton-element .ant-skeleton-image {
+  background: var(--shadow-light-3);
+}
+.ant-skeleton-element .ant-skeleton-image-path {
+  fill: var(--text-light-2);
+}

@@ -1,0 +1,94 @@
+.top-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 48px;
+    height: 40px;
+    max-height: 48px;
+    width: 100%;
+    background-color: var(--primary-base);
+    box-shadow: 0px 4px 20px 4px var(--text-light-2);
+    color: var(--text-light-5);
+}
+
+.Login {
+    display: flex;
+    background: var(--primary-dark-3);
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-grow: 1;
+
+    .FormContainer {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        p {
+            color: var(--text-light-5);
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 18px;
+            letter-spacing: 0.2px;
+
+            b {
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+            }
+        }
+
+        h5 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 48px;
+            color: var(--text-light-5);
+        }
+
+        small {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: var(--text-light-5);
+            mix-blend-mode: normal;
+            opacity: 0.7;
+        }
+
+        .Form {
+            background: var(--text-light-5);
+            border-radius: 8px;
+
+            .FormItem {
+                background-color: var(--primary-light-3);
+                border-radius: 8px;
+                width: 100%;
+                border: none;
+                margin-top: 4px;
+                height: 48px;
+
+                svg, input {
+                    color: var(--text-dark-2);
+                }
+                input {
+                    padding-left: 8px;
+                    background-color: var(--primary-light-3);
+                    font-size: 16px;
+                }
+                input::-webkit-input-placeholder {
+                    color: var(--text-dark-2);
+                }
+            }
+
+            button[type=submit] {
+                height: 48px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+}

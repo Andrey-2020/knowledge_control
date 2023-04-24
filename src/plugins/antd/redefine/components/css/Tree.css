@@ -1,0 +1,117 @@
+.ant-tree.ant-tree-directory .ant-tree-treenode:hover::before {
+  background: var(--text-light-4);
+}
+.ant-tree.ant-tree-directory .ant-tree-treenode .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  color: var(--text-light-5);
+}
+.ant-tree.ant-tree-directory .ant-tree-treenode-selected:hover::before,
+.ant-tree.ant-tree-directory .ant-tree-treenode-selected::before {
+  background: var(--primary-base);
+}
+.ant-tree.ant-tree-directory .ant-tree-treenode-selected .ant-tree-switcher {
+  color: var(--text-light-5);
+}
+.ant-tree.ant-tree-directory .ant-tree-treenode-selected .ant-tree-node-content-wrapper {
+  color: var(--text-light-5);
+}
+.ant-tree-checkbox {
+  color: var(--text-dark-4);
+}
+.ant-tree-checkbox-wrapper:hover .ant-tree-checkbox-inner,
+.ant-tree-checkbox:hover .ant-tree-checkbox-inner,
+.ant-tree-checkbox-input:focus + .ant-tree-checkbox-inner {
+  border-color: var(--primary-base);
+}
+.ant-tree-checkbox-checked::after {
+  border: 1px solid var(--primary-base);
+}
+.ant-tree-checkbox-inner {
+  background-color: var(--text-light-5);
+  border: 1px solid var(--text-light-2);
+}
+.ant-tree-checkbox-inner::after {
+  border: 2px solid var(--text-light-5);
+}
+.ant-tree-checkbox-checked .ant-tree-checkbox-inner::after {
+  border: 2px solid var(--text-light-5);
+}
+.ant-tree-checkbox-checked .ant-tree-checkbox-inner {
+  background-color: var(--primary-base);
+  border-color: var(--primary-base);
+}
+.ant-tree-checkbox-disabled.ant-tree-checkbox-checked .ant-tree-checkbox-inner::after {
+  border-color: var(--shadow-dark-1);
+}
+.ant-tree-checkbox-disabled .ant-tree-checkbox-inner {
+  background-color: var(--text-light-4);
+  border-color: var(--text-light-2) !important;
+}
+.ant-tree-checkbox-disabled .ant-tree-checkbox-inner::after {
+  border-color: var(--text-light-4);
+}
+.ant-tree-checkbox-disabled + span {
+  color: var(--text-light-2);
+}
+.ant-tree-checkbox-wrapper {
+  color: var(--text-dark-4);
+}
+.ant-tree-checkbox-group {
+  color: var(--text-dark-4);
+}
+.ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner {
+  background-color: var(--text-light-5);
+  border-color: var(--text-light-2);
+}
+.ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner::after {
+  background-color: var(--primary-base);
+}
+.ant-tree-checkbox-indeterminate.ant-tree-checkbox-disabled .ant-tree-checkbox-inner::after {
+  background-color: var(--shadow-dark-1);
+  border-color: var(--shadow-dark-1);
+}
+.ant-tree {
+  color: var(--text-dark-4);
+  background: var(--text-light-5);
+}
+.ant-tree-focused:not(:hover):not(.ant-tree-active-focused) {
+  background: var(--info-light-3);
+}
+.ant-tree .ant-tree-treenode-disabled .ant-tree-node-content-wrapper {
+  color: var(--text-light-2);
+}
+.ant-tree .ant-tree-treenode-active .ant-tree-node-content-wrapper {
+  background: var(--text-light-4);
+}
+.ant-tree-switcher-loading-icon {
+  color: var(--primary-base);
+}
+.ant-tree-switcher-leaf-line::before {
+  border-left: 1px solid var(--text-light-2);
+}
+.ant-tree-switcher-leaf-line::after {
+  border-bottom: 1px solid var(--text-light-2);
+}
+.ant-tree .ant-tree-node-content-wrapper:hover {
+  background-color: var(--text-light-4);
+}
+.ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  background-color: var(--primary-light-2);
+}
+.ant-tree-node-content-wrapper[draggable='true'] .ant-tree-drop-indicator {
+  background-color: var(--primary-base);
+}
+.ant-tree-node-content-wrapper[draggable='true'] .ant-tree-drop-indicator::after {
+  border: 2px solid var(--primary-base);
+}
+.ant-tree .ant-tree-treenode.drop-container > [draggable] {
+  box-shadow: 0 0 0 2px var(--primary-base);
+}
+.ant-tree-show-line .ant-tree-indent-unit::before {
+  border-right: 1px solid var(--text-light-2);
+}
+.ant-tree-show-line .ant-tree-switcher {
+  background: var(--text-light-5);
+}
+.ant-tree-rtl.ant-tree-show-line .ant-tree-indent-unit::before {
+  border-left: 1px solid var(--text-light-2);
+}

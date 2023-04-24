@@ -1,0 +1,221 @@
+.ant-form-item .ant-upload.ant-upload-drag {
+  background: var(--text-light-5);
+}
+.ant-form-item-explain.ant-form-item-explain-error {
+  color: var(--error-base);
+}
+.ant-form-item-explain.ant-form-item-explain-warning {
+  color: var(--warning-base);
+}
+.ant-form-item-has-success.ant-form-item-has-feedback .ant-form-item-children-icon {
+  color: var(--success-dark-1);
+}
+.ant-form-item-has-warning .ant-form-item-split {
+  color: var(--warning-base);
+}
+.ant-form-item-has-warning .ant-input,
+.ant-form-item-has-warning .ant-input-affix-wrapper,
+.ant-form-item-has-warning .ant-input:hover,
+.ant-form-item-has-warning .ant-input-affix-wrapper:hover {
+  background-color: var(--text-light-5);
+  border-color: var(--warning-base);
+}
+.ant-form-item-has-warning .ant-input:focus,
+.ant-form-item-has-warning .ant-input-affix-wrapper:focus,
+.ant-form-item-has-warning .ant-input-focused,
+.ant-form-item-has-warning .ant-input-affix-wrapper-focused {
+  border-color: var(--warning-light-1);
+  box-shadow: 0 0 1px 2px var(--warning-base);
+}
+.ant-form-item-has-warning .ant-input-disabled {
+  background-color: var(--text-light-4);
+  border-color: var(--text-light-2);
+}
+.ant-form-item-has-warning .ant-input-affix-wrapper-disabled {
+  background-color: var(--text-light-4);
+  border-color: var(--text-light-2);
+}
+.ant-form-item-has-warning .ant-calendar-picker-open .ant-calendar-picker-input {
+  border-color: var(--warning-light-1);
+  box-shadow: 0 0 1px 2px var(--warning-base);
+}
+.ant-form-item-has-warning .ant-input-prefix {
+  color: var(--warning-base);
+}
+.ant-form-item-has-warning .ant-input-group-addon {
+  color: var(--warning-base);
+  border-color: var(--warning-base);
+}
+.ant-form-item-has-warning .has-feedback {
+  color: var(--warning-base);
+}
+.ant-form-item-has-warning.ant-form-item-has-feedback .ant-form-item-children-icon {
+  color: var(--warning-base);
+}
+.ant-form-item-has-warning .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input) .ant-select-selector {
+  background-color: var(--text-light-5);
+  border-color: var(--warning-base) !important;
+}
+.ant-form-item-has-warning .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input).ant-select-open .ant-select-selector,
+.ant-form-item-has-warning .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input).ant-select-focused .ant-select-selector {
+  border-color: var(--warning-light-1);
+  box-shadow: 0 0 1px 2px var(--warning-base);
+}
+.ant-form-item-has-warning .ant-input-number,
+.ant-form-item-has-warning .ant-picker {
+  background-color: var(--text-light-5);
+  border-color: var(--warning-base);
+}
+.ant-form-item-has-warning .ant-input-number-focused,
+.ant-form-item-has-warning .ant-picker-focused,
+.ant-form-item-has-warning .ant-input-number:focus,
+.ant-form-item-has-warning .ant-picker:focus {
+  border-color: var(--warning-light-1);
+  box-shadow: 0 0 1px 2px var(--warning-base);
+}
+.ant-form-item-has-warning .ant-input-number:not([disabled]):hover,
+.ant-form-item-has-warning .ant-picker:not([disabled]):hover {
+  background-color: var(--text-light-5);
+  border-color: var(--warning-base);
+}
+.ant-form-item-has-warning .ant-cascader-picker:focus .ant-cascader-input {
+  border-color: var(--warning-light-1);
+  box-shadow: 0 0 1px 2px var(--warning-base);
+}
+.ant-form-item-has-error .ant-form-item-split {
+  color: var(--error-base);
+}
+.ant-form-item-has-error .ant-input,
+.ant-form-item-has-error .ant-input-affix-wrapper,
+.ant-form-item-has-error .ant-input:hover,
+.ant-form-item-has-error .ant-input-affix-wrapper:hover {
+  background-color: var(--text-light-5);
+  border-color: var(--error-base);
+}
+.ant-form-item-has-error .ant-input:focus,
+.ant-form-item-has-error .ant-input-affix-wrapper:focus,
+.ant-form-item-has-error .ant-input-focused,
+.ant-form-item-has-error .ant-input-affix-wrapper-focused {
+  border-color: var(--error-light-1);
+  box-shadow: 0 0 1px 2px var(--error-base);
+}
+.ant-form-item-has-error .ant-input-disabled {
+  background-color: var(--text-light-4);
+  border-color: var(--text-light-2);
+}
+.ant-form-item-has-error .ant-input-affix-wrapper-disabled {
+  background-color: var(--text-light-4);
+  border-color: var(--text-light-2);
+}
+.ant-form-item-has-error .ant-calendar-picker-open .ant-calendar-picker-input {
+  border-color: var(--error-light-1);
+  box-shadow: 0 0 1px 2px var(--error-base);
+}
+.ant-form-item-has-error .ant-input-prefix {
+  color: var(--error-base);
+}
+.ant-form-item-has-error .ant-input-group-addon {
+  color: var(--error-base);
+  border-color: var(--error-base);
+}
+.ant-form-item-has-error .has-feedback {
+  color: var(--error-base);
+}
+.ant-form-item-has-error.ant-form-item-has-feedback .ant-form-item-children-icon {
+  color: var(--error-base);
+}
+.ant-form-item-has-error .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input) .ant-select-selector {
+  background-color: var(--text-light-5);
+  border-color: var(--error-base) !important;
+}
+.ant-form-item-has-error .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input).ant-select-open .ant-select-selector,
+.ant-form-item-has-error .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input).ant-select-focused .ant-select-selector {
+  border-color: var(--error-light-1);
+  box-shadow: 0 0 1px 2px var(--error-base);
+}
+.ant-form-item-has-error .ant-select.ant-select-auto-complete .ant-input:focus {
+  border-color: var(--error-base);
+}
+.ant-form-item-has-error .ant-input-number,
+.ant-form-item-has-error .ant-picker {
+  background-color: var(--text-light-5);
+  border-color: var(--error-base);
+}
+.ant-form-item-has-error .ant-input-number-focused,
+.ant-form-item-has-error .ant-picker-focused,
+.ant-form-item-has-error .ant-input-number:focus,
+.ant-form-item-has-error .ant-picker:focus {
+  border-color: var(--error-light-1);
+  box-shadow: 0 0 1px 2px var(--error-base);
+}
+.ant-form-item-has-error .ant-input-number:not([disabled]):hover,
+.ant-form-item-has-error .ant-picker:not([disabled]):hover {
+  background-color: var(--text-light-5);
+  border-color: var(--error-base);
+}
+.ant-form-item-has-error .ant-mention-wrapper .ant-mention-editor,
+.ant-form-item-has-error .ant-mention-wrapper .ant-mention-editor:not([disabled]):hover {
+  background-color: var(--text-light-5);
+  border-color: var(--error-base);
+}
+.ant-form-item-has-error .ant-mention-wrapper.ant-mention-active:not([disabled]) .ant-mention-editor,
+.ant-form-item-has-error .ant-mention-wrapper .ant-mention-editor:not([disabled]):focus {
+  border-color: var(--error-light-1);
+  box-shadow: 0 0 1px 2px var(--error-base);
+}
+.ant-form-item-has-error .ant-cascader-picker:focus .ant-cascader-input {
+  background-color: var(--text-light-5);
+  border-color: var(--error-light-1);
+  box-shadow: 0 0 1px 2px var(--error-base);
+}
+.ant-form-item-has-error .ant-transfer-list {
+  border-color: var(--error-base);
+}
+.ant-form-item-has-error .ant-transfer-list-search:not([disabled]) {
+  border-color: var(--text-light-2);
+}
+.ant-form-item-has-error .ant-transfer-list-search:not([disabled]):hover {
+  border-color: var(--primary-dark-1);
+}
+.ant-form-item-has-error .ant-transfer-list-search:not([disabled]):focus {
+  border-color: var(--primary-dark-1);
+  box-shadow: 0 0 0 2px var(--primary-dark-transparent);
+}
+.ant-form-item-has-error .ant-radio-button-wrapper {
+  border-color: var(--error-base) !important;
+}
+.ant-form-item-has-error .ant-radio-button-wrapper:not(:first-child)::before {
+  background-color: var(--error-base);
+}
+.ant-form-item-is-validating.ant-form-item-has-feedback .ant-form-item-children-icon {
+  color: var(--primary-base);
+}
+.ant-form {
+  color: var(--text-dark-4);
+}
+.ant-form legend {
+  color: var(--text-dark-1);
+  border-bottom: 1px solid var(--text-light-2);
+}
+.ant-form output {
+  color: var(--text-dark-4);
+}
+.ant-form-item {
+  color: var(--text-dark-4);
+}
+.ant-form-item-label > label {
+  color: var(--text-dark-4);
+}
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  color: var(--error-base);
+}
+.ant-form-item-label > label .ant-form-item-optional {
+  color: var(--text-dark-1);
+}
+.ant-form-item-label > label .ant-form-item-tooltip {
+  color: var(--text-dark-1);
+}
+.ant-form-item-explain,
+.ant-form-item-extra {
+  color: var(--text-dark-1);
+}

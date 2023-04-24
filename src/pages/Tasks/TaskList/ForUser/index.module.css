@@ -1,0 +1,21 @@
+.to-subjects-menu-item {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  height: 48px !important;
+  border-bottom: 1px solid var(--primary-light-3);
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: var(--text-dark-3);
+  border-bottom: 1px solid var(--primary-light-3);
+}
+.side-card {
+  flex-direction: column;
+  box-shadow: 0px 1px 4px var(--shadow-base) !important;
+  border-radius: 8px;
+}

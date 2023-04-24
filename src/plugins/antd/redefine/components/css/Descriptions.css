@@ -1,0 +1,29 @@
+.ant-descriptions-title {
+  color: var(--text-dark-4);
+}
+.ant-descriptions-extra {
+  color: var(--text-dark-4);
+}
+.ant-descriptions-item-label {
+  color: var(--text-dark-4);
+}
+.ant-descriptions-item-content {
+  color: var(--text-dark-4);
+}
+.ant-descriptions-bordered .ant-descriptions-view {
+  border: 1px solid var(--text-light-4);
+}
+.ant-descriptions-bordered .ant-descriptions-item-label,
+.ant-descriptions-bordered .ant-descriptions-item-content {
+  border-right: 1px solid var(--text-light-4);
+}
+.ant-descriptions-bordered .ant-descriptions-item-label {
+  background-color: var(--text-light-5);
+}
+.ant-descriptions-bordered .ant-descriptions-row {
+  border-bottom: 1px solid var(--text-light-4);
+}
+.ant-descriptions-rtl.ant-descriptions-bordered .ant-descriptions-item-label,
+.ant-descriptions-rtl.ant-descriptions-bordered .ant-descriptions-item-content {
+  border-left: 1px solid var(--text-light-4);
+}

@@ -1,0 +1,10 @@
+.ant-back-top {
+  color: var(--text-dark-4);
+}
+.ant-back-top-content {
+  color: var(--text-light-5);
+  background-color: var(--shadow-dark-2);
+}
+.ant-back-top-content:hover {
+  background-color: var(--shadow-dark-5);
+}

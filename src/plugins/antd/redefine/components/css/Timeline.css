@@ -1,0 +1,40 @@
+.ant-timeline {
+  color: var(--text-dark-4);
+}
+.ant-timeline-item-tail {
+  border-left: 2px solid var(--text-light-4);
+}
+.ant-timeline-item-head {
+  background-color: var(--text-light-5);
+}
+.ant-timeline-item-head-blue {
+  color: var(--blue-dark-1);
+  border-color: var(--blue-dark-1);
+}
+.ant-timeline-item-head-red {
+  color: var(--red-dark-1);
+  border-color: var(--red-dark-1);
+}
+.ant-timeline-item-head-green {
+  color: var(--green-dark-1);
+  border-color: var(--green-dark-1);
+}
+.ant-timeline-item-head-gray {
+  color: var(--text-light-2);
+  border-color: var(---text-light-2);
+}
+.ant-timeline.ant-timeline-pending .ant-timeline-item-last .ant-timeline-item-tail {
+  border-left: 2px dotted var(--text-light-4);
+}
+.ant-timeline.ant-timeline-reverse .ant-timeline-item-pending .ant-timeline-item-tail {
+  border-left: 2px dotted var(--text-light-4);
+}
+.ant-timeline-rtl .ant-timeline-item-tail {
+  border-right: 2px solid var(--text-light-4);
+}
+.ant-timeline-rtl.ant-timeline.ant-timeline-pending .ant-timeline-item-last .ant-timeline-item-tail {
+  border-right: 2px dotted var(--text-light-4);
+}
+.ant-timeline-rtl.ant-timeline.ant-timeline-reverse .ant-timeline-item-pending .ant-timeline-item-tail {
+  border-right: 2px dotted var(--text-light-4);
+}

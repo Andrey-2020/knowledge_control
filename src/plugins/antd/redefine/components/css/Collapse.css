@@ -1,0 +1,26 @@
+.ant-collapse {
+  color: var(--text-dark-4);
+  background-color: var(--text-light-4);
+  border: 1px solid var(--text-light-2);
+}
+.ant-collapse > .ant-collapse-item {
+  border-bottom: 1px solid var(--text-light-2);
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  color: var(--text-dark-4);
+}
+.ant-collapse-content {
+  color: var(--text-dark-4);
+  background-color: var(--text-light-5);
+  border-top: 1px solid var(--text-light-2);
+}
+.ant-collapse-borderless {
+  background-color: var(--text-light-5);
+}
+.ant-collapse-borderless > .ant-collapse-item {
+  border-bottom: 1px solid var(--text-light-2);
+}
+.ant-collapse .ant-collapse-item-disabled > .ant-collapse-header,
+.ant-collapse .ant-collapse-item-disabled > .ant-collapse-header > .arrow {
+  color: var(--text-light-2);
+}

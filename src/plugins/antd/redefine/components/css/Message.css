@@ -1,0 +1,23 @@
+.ant-message {
+  color: var(--text-dark-4);
+}
+.ant-message-notice-content {
+  background: var(--text-light-5);
+  box-shadow:
+    0 3px 6px -4px var(--shadow-light-1),
+    0 6px 16px 0 var(--shadow-light-2),
+    0 9px 28px 8px var(--shadow-light-3);
+}
+.ant-message-success .anticon {
+  color: var(--success-dark-1);
+}
+.ant-message-error .anticon {
+  color: var(--error-base);
+}
+.ant-message-warning .anticon {
+  color: var(--warning-base);
+}
+.ant-message-info .anticon,
+.ant-message-loading .anticon {
+  color: var(--info-base);
+}

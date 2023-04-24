@@ -1,0 +1,31 @@
+.ant-notification {
+  color: var(--text-dark-4);
+}
+.ant-notification-hook-holder,
+.ant-notification-notice {
+  box-shadow:
+    0 3px 6px -4px var(--shadow-light-1),
+    0 6px 16px 0 var(--shadow-light-2),
+    0 9px 28px 8px var(--shadow-light-3);
+}
+.ant-notification-notice-message {
+  color: var(--text-dark-4);
+}
+.anticon.ant-notification-notice-icon-success {
+  color: var(--success-dark-1);
+}
+.anticon.ant-notification-notice-icon-info {
+  color: var(--info-base);
+}
+.anticon.ant-notification-notice-icon-warning {
+  color: var(--warning-base);
+}
+.anticon.ant-notification-notice-icon-error {
+  color: var(--error-base);
+}
+.ant-notification-notice-close {
+  color: var(--text-dark-1);
+}
+.ant-notification-notice-close:hover {
+  color: var(--text-dark-1);
+}

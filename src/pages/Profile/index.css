@@ -1,0 +1,52 @@
+.card-text {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: var(--text-dark-3);
+  margin-bottom: 24px;
+}
+.text-form { 
+  height: 52px;
+  background: var(--shadow-light-4);
+  border: 1px solid var(--shadow-dark-1);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-dark-3);
+  padding-left: 16px;
+  margin-bottom: 20px;
+  display: flex;
+	flex-direction: column;
+  justify-content: center;
+}
+.text-form h5 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: var(--text-dark-1);
+}
+.form-item {
+  height: 52px;
+  background: var(--primary-light-transparent);
+  border: 1px solid var(--text-light-2);
+  border-radius: 8px;
+}
+.avatar > .ant-upload {
+  border: 2px solid var(--text-light-2);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  
+  min-width: 100px;
+  min-height: 100px;
+
+  width: 13vw;
+  height: 13vw;
+
+  max-width: 100%;
+}

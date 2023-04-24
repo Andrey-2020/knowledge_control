@@ -1,0 +1,139 @@
+.ant-badge {
+  color: var(--text-dark-4);
+}
+.ant-badge-count {
+  color: var(--text-light-5);
+  background: var(--error-base);
+  box-shadow: 0 0 0 1px var(--text-light-5);
+}
+.ant-badge-count a,
+.ant-badge-count a:hover {
+  color: var(--text-light-5);
+}
+.ant-badge-dot {
+  background: var(--error-base);
+  box-shadow: 0 0 0 1px var(--text-light-5);
+}
+.ant-badge-status-success {
+  background-color: var(--success-dark-1);
+}
+.ant-badge-status-processing {
+  background-color: var(--primary-base);
+}
+.ant-badge-status-processing::after {
+  border: 1px solid var(--primary-base);
+}
+.ant-badge-status-default {
+  background-color: var(--text-light-2);
+}
+.ant-badge-status-error {
+  background-color: var(--error-base);
+}
+.ant-badge-status-warning {
+  background-color: var(--warning-base);
+}
+.ant-badge-status-pink {
+  background: var(--pink-dark-1);
+}
+.ant-badge-status-magenta {
+  background: var(--magenta-dark-1);
+}
+.ant-badge-status-red {
+  background: var(--red-dark-1);
+}
+.ant-badge-status-volcano {
+  background: var(--volcano-dark-1);
+}
+.ant-badge-status-orange {
+  background: var(--orange-dark-1);
+}
+.ant-badge-status-yellow {
+  background: var(--yellow-dark-1);
+}
+.ant-badge-status-gold {
+  background: var(--gold-dark-1);
+}
+.ant-badge-status-cyan {
+  background: var(--cyan-dark-1);
+}
+.ant-badge-status-lime {
+  background: var(--lime-dark-1);
+}
+.ant-badge-status-green {
+  background: var(--green-dark-1);
+}
+.ant-badge-status-blue {
+  background: var(--blue-dark-1);
+}
+.ant-badge-status-geekblue {
+  background: var(--geekblue-dark-1);
+}
+.ant-badge-status-purple {
+  background: var(--purple-dark-1);
+}
+.ant-badge-status-text {
+  color: var(--text-dark-4);
+}
+.ant-ribbon {
+  color: var(--text-dark-4);
+  color: var(--text-light-5);
+  background-color: var(--primary-base);
+}
+.ant-ribbon-text {
+  color: var(--text-light-5);
+}
+.ant-ribbon-corner::after {
+  color: var(--text-light-2);
+}
+.ant-ribbon-color-pink {
+  color: var(--pink-dark-1);
+  background: var(--pink-dark-1);
+}
+.ant-ribbon-color-magenta {
+  color: var(--magenta-dark-1);
+  background: var(--magenta-dark-1);
+}
+.ant-ribbon-color-red {
+  color: var(--red-dark-1);
+  background: var(--red-dark-1);
+}
+.ant-ribbon-color-volcano {
+  color: var(--volcano-dark-1);
+  background: var(--volcano-dark-1);
+}
+.ant-ribbon-color-orange {
+  color: var(--orange-dark-1);
+  background: var(--orange-dark-1);
+}
+.ant-ribbon-color-yellow {
+  color: var(--yellow-dark-1);
+  background: var(--yellow-dark-1);
+}
+.ant-ribbon-color-gold {
+  color: var(--gold-dark-1);
+  background: var(--gold-dark-1);
+}
+.ant-ribbon-color-cyan {
+  color: var(--cyan-dark-1);
+  background: var(--cyan-dark-1);
+}
+.ant-ribbon-color-lime {
+  color: var(--lime-dark-1);
+  background: var(--lime-dark-1);
+}
+.ant-ribbon-color-green {
+  color: var(--green-dark-1);
+  background: var(--green-dark-1);
+}
+.ant-ribbon-color-blue {
+  color: var(--blue-dark-1);
+  background: var(--blue-dark-1);
+}
+.ant-ribbon-color-geekblue {
+  color: var(--geekblue-dark-1);
+  background: var(--geekblue-dark-1);
+}
+.ant-ribbon-color-purple {
+  color: var(--purple-dark-1);
+  background: var(--purple-dark-1);
+}
